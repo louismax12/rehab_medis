@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>RehabMedik Enterprise Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary": "#006242", "on-secondary-fixed": "#131b2e", "on-tertiary-fixed-variant": "#005236", "inverse-surface": "#213145", "on-secondary-container": "#5c647a", "secondary-container": "#dae2fd", "tertiary-fixed": "#6ffbbe", "surface-container-high": "#dce9ff", "primary": "#004ac6", "tertiary-container": "#007d55", "surface-container-lowest": "#ffffff", "on-background": "#0b1c30", "on-secondary-fixed-variant": "#3f465c", "error": "#ba1a1a", "on-primary": "#ffffff", "error-container": "#ffdad6", "on-primary-fixed": "#00174b", "outline": "#737686", "on-secondary": "#ffffff", "on-surface-variant": "#434655", "surface-variant": "#d3e4fe", "surface-container": "#e5eeff", "on-tertiary": "#ffffff", "surface-container-highest": "#d3e4fe", "primary-fixed": "#dbe1ff", "surface-container-low": "#eff4ff", "surface-bright": "#f8f9ff", "on-tertiary-fixed": "#002113", "secondary": "#565e74", "on-primary-fixed-variant": "#003ea8", "surface-dim": "#cbdbf5", "on-surface": "#0b1c30", "secondary-fixed": "#dae2fd", "on-primary-container": "#eeefff", "inverse-on-surface": "#eaf1ff", "primary-fixed-dim": "#b4c5ff", "surface-tint": "#0053db", "tertiary-fixed-dim": "#4edea3", "outline-variant": "#c3c6d7", "primary-container": "#2563eb", "secondary-fixed-dim": "#bec6e0", "inverse-primary": "#b4c5ff", "on-error-container": "#93000a", "surface": "#f8f9ff", "on-tertiary-container": "#bdffdb", "on-error": "#ffffff", "background": "#f8f9ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "sidebar-width": "16.5rem", "space-md": "0.75rem", "space-2xs": "0.125rem", "gutter-table": "1rem", "sidebar-collapsed": "4.5rem", "space-xs": "0.25rem", "space-base": "1rem", "space-2xl": "2rem", "space-xl": "1.5rem", "space-sm": "0.5rem", "space-3xl": "3rem", "space-lg": "1.25rem" }, "fontFamily": { "display-lg": ["Outfit"], "headline-lg": ["Outfit"], "body-sm": ["Inter"], "metric-display": ["Outfit"], "body-md": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"], "headline-md": ["Outfit"], "label-md": ["Inter"], "headline-sm": ["Outfit"], "display-sm": ["Outfit"] }, "fontSize": { "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "metric-display": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "display-sm": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-inverse-surface text-inverse-on-surface z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="h-16 flex items-center px-space-xl gap-space-md bg-inverse-surface"><img alt="RehabMedik Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V57r84H8dCObGCTZ0wraLnUXjos9IE7A_wxxzNGJz-q32_5YE4UKMJrwdjw5KF2SkTzIBm5qFXuX_PxL7ut8Z1-IidbfolQOZbRUHicva7EXn7pw4aRJZ7uA-RphXhllpaI-BYxnpobbcCzFqfEzHmVLkIo_gy8ji55s0d95CUirkIb6MYLFYGzB0l-Pp-Lxi6Xm1qhRiKhk2kmjIYmOhpoYyOI1fMdoIAMfx1jbsqygDAPKszTq8kff8"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm leading-tight text-surface-container-lowest tracking-tight">RehabMedik</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-outline-variant">RKZ Hospital Enterprise</span></div></div><div class="px-space-xl py-space-sm"><div class="h-px bg-on-surface-variant/20 w-full"></div></div><div class="px-space-md py-space-xs"><span class="px-space-md font-label-sm text-label-sm uppercase tracking-wider text-outline-variant">Clinical Workflow</span></div><nav class="flex flex-col gap-space-xs px-space-md" data-active-classes="bg-primary-container text-on-primary font-headline-sm shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]"><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg transition-all bg-primary-container text-on-primary font-headline-sm shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="antrean-pasien" href="#"><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-[20px]">groups</span><span class="font-body-md text-body-md">Antrean Pasien</span></div><span class="px-space-xs py-space-2xs bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm rounded-full">14</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="rekam-medis" href="#"><span class="material-symbols-outlined text-[20px]">folder_shared</span><span class="font-body-md text-body-md">Rekam Medis</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="anamnesis-dan-pemetaan" href="#"><span class="material-symbols-outlined text-[20px]">accessibility_new</span><span class="font-body-md text-body-md">Anamnesis &amp; Pemetaan</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="fisioterapi-dan-terapi-wicara" href="#"><span class="material-symbols-outlined text-[20px]">vital_signs</span><span class="font-body-md text-body-md">Fisioterapi &amp; Terapi</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="laporan-dan-statistik" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-body-md text-body-md">Laporan &amp; Statistik</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="pengaturan" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-body-md text-body-md">Pengaturan</span></a></nav></div><div class="p-space-md"><div class="bg-on-surface-variant/10 rounded-xl p-space-md flex flex-col gap-space-sm"><div class="flex items-center gap-space-md"><div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-headline-sm"><span class="material-symbols-outlined text-[20px]">stethoscope</span></div><div class="flex flex-col min-w-0 flex-1"><span class="font-body-md text-body-md font-semibold text-surface-container-lowest truncate">Dr. Bambang P., Sp.OT</span><span class="font-label-sm text-label-sm text-outline-variant truncate">Subsp. O.T.B. Rehab</span></div></div><div class="flex items-center justify-between pt-space-xs border-t border-on-surface-variant/20"><span class="font-label-sm text-label-sm text-tertiary-fixed flex items-center gap-space-xs"><span class="inline-block w-2 h-2 rounded-full bg-tertiary-fixed"></span> Shift On-Duty</span><button class="font-label-sm text-label-sm text-secondary-fixed hover:text-surface-container-lowest flex items-center gap-space-2xs" type="button"><span class="material-symbols-outlined text-[16px]">sync_alt</span> Ganti</button></div></div></div></aside><div class="pl-sidebar-width min-h-screen flex flex-col"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 px-space-xl flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xl flex-1 max-w-2xl"><img alt="RehabMedik Logo" class="h-8 w-auto object-contain hidden" src="https://lh3.googleusercontent.com/aida/AEtjO1V57r84H8dCObGCTZ0wraLnUXjos9IE7A_wxxzNGJz-q32_5YE4UKMJrwdjw5KF2SkTzIBm5qFXuX_PxL7ut8Z1-IidbfolQOZbRUHicva7EXn7pw4aRJZ7uA-RphXhllpaI-BYxnpobbcCzFqfEzHmVLkIo_gy8ji55s0d95CUirkIb6MYLFYGzB0l-Pp-Lxi6Xm1qhRiKhk2kmjIYmOhpoYyOI1fMdoIAMfx1jbsqygDAPKszTq8kff8"/><div class="relative w-full max-w-lg"><span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Cari No. RM, Nama Pasien, NIK..." type="search"/></div><div class="hidden xl:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-tertiary"></span><span>Poli Sore - Aktif</span></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">calendar_today</span><span>Kamis, 24 Okt 2024</span></div><button class="relative p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-2.5 h-2.5 rounded-full bg-error ring-2 ring-surface-container-lowest"></span></button><button class="inline-flex items-center gap-space-xs h-10 px-space-lg bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">person_add</span><span>+ Pasien Baru</span></button><div class="flex items-center gap-space-sm pl-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full px-space-xl pt-16 bg-background flex-1"><div class="flex flex-col w-full pb-space-3xl">
+<!-- Top Welcome & Doctor Clinical Context Banner -->
+<div class="relative w-full rounded-xl bg-surface-container-lowest shadow-sm p-space-xl overflow-hidden mb-space-xl">
+<div class="absolute -right-16 -bottom-16 w-80 h-80 bg-primary-container/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute right-72 -top-12 w-64 h-64 bg-tertiary/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col xl:flex-row xl:items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="inline-flex items-center gap-space-2xs px-space-sm py-space-2xs bg-tertiary/10 text-tertiary rounded-full font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+            Ruang Konsultasi 1 • Poli Sore On-Duty
+          </span>
+<span class="inline-flex items-center gap-space-2xs px-space-sm py-space-2xs bg-surface-container text-on-surface-variant rounded-full font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+            Avg. Konsultasi: ~14.8 Menit
+          </span>
+<span class="inline-flex items-center gap-space-2xs px-space-sm py-space-2xs bg-primary/10 text-primary rounded-full font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">badge</span>
+            SIP: 446.1/1982/IPDS/2021
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-space-xs">
+          dr. Bambang P., Sp.OT <span class="text-on-surface-variant font-normal font-body-lg text-body-lg">(Subsp. O.T.B. Rehab Medik)</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Dashboard Antrean Pemeriksaan Fisik &amp; Asesmen Klinis RMF-09 Poli Spesialis Kedokteran Fisik &amp; Rehabilitasi RKZ Surabaya
+        </p>
+</div>
+<!-- Live Clinical Action Ribbon -->
+<div class="flex items-center gap-space-md flex-wrap">
+<div class="flex items-center gap-space-md bg-surface-container-low px-space-lg py-space-sm rounded-xl">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]">notifications_active</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Antrean Terpanggil</span>
+<span class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+              A-03 <span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+</span>
+</div>
+</div>
+<button class="inline-flex items-center gap-space-xs h-12 px-space-lg bg-primary text-on-primary font-headline-sm text-headline-sm rounded-xl shadow-sm hover:bg-primary-container transition-all" id="btn-speaker-panggil" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+<span>Panggil Antrean Berikutnya</span>
+</button>
+</div>
+</div>
+</div>
+<!-- KPI Metric Summary Bar -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-base mb-space-xl">
+<!-- Stat 1: Menunggu -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:translate-y-[-2px]">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Pasien Menunggu</span>
+<div class="flex items-baseline gap-space-sm mt-space-2xs">
+<span class="font-metric-display text-metric-display text-on-surface">12</span>
+<span class="font-label-sm text-label-sm text-error flex items-center">
+<span class="material-symbols-outlined text-[14px]">priority_high</span> 3 Prioritas
+          </span>
+</div>
+<span class="font-body-sm text-body-sm text-outline mt-space-2xs">Estimasi antrean: 2j 15m</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">hourglass_top</span>
+</div>
+</div>
+<!-- Stat 2: Sedang Konsultasi -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:translate-y-[-2px]">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Sedang Diperiksa</span>
+<div class="flex items-baseline gap-space-sm mt-space-2xs">
+<span class="font-metric-display text-metric-display text-primary-container">02</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center">
+<span class="w-2 h-2 rounded-full bg-primary-container mr-1 animate-pulse"></span> Ruang 1 &amp; 2
+          </span>
+</div>
+<span class="font-body-sm text-body-sm text-outline mt-space-2xs">Termasuk Anamnesis RMF</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">clinical_notes</span>
+</div>
+</div>
+<!-- Stat 3: Selesai Hari Ini -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:translate-y-[-2px]">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Selesai Konsultasi</span>
+<div class="flex items-baseline gap-space-sm mt-space-2xs">
+<span class="font-metric-display text-metric-display text-tertiary">04</span>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> 100% Tuntas EMR
+          </span>
+</div>
+<span class="font-body-sm text-body-sm text-outline mt-space-2xs">Target sesi: 18 pasien</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-tertiary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">task_alt</span>
+</div>
+</div>
+<!-- Stat 4: Order Fisioterapi / Rujukan -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:translate-y-[-2px]">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Order Fisioterapi</span>
+<div class="flex items-baseline gap-space-sm mt-space-2xs">
+<span class="font-metric-display text-metric-display text-on-surface">03</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center">
+            SWD, TENS &amp; MMT
+          </span>
+</div>
+<span class="font-body-sm text-body-sm text-outline mt-space-2xs">Langsung ke Gym Medik</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">fitness_center</span>
+</div>
+</div>
+</div>
+<!-- Main Grid Layout: 8 cols (Queue List) + 4 cols (Patient Snapshot & Clinical Drawer) -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT PANEL: Patient Queue Workspace (Col-span 8) -->
+<div class="xl:col-span-8 flex flex-col gap-space-md">
+<!-- Filter & Search Toolbar Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<!-- Category Segmented Filters -->
+<div class="flex items-center justify-between flex-wrap gap-space-sm pb-space-sm bg-surface-container-low p-space-xs rounded-lg">
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="px-space-md py-space-xs rounded-lg font-headline-sm text-headline-sm bg-surface-container-lowest text-primary shadow-sm flex items-center gap-space-xs" type="button">
+<span>Semua Antrean</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm">18</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest/60 transition-all flex items-center gap-space-xs" type="button">
+<span>Menunggu</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">12</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest/60 transition-all flex items-center gap-space-xs" type="button">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span>Sedang Diperiksa</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm">2</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest/60 transition-all flex items-center gap-space-xs" type="button">
+<span>Selesai</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-tertiary-container font-label-sm text-label-sm">4</span>
+</button>
+</div>
+<div class="flex items-center gap-space-xs px-space-xs">
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors flex items-center gap-1 font-label-sm text-label-sm" title="Urutkan Waktu Kedatangan" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_vert</span> Waktu Kedatangan
+            </button>
+</div>
+</div>
+<!-- Realtime Search and Quick Filter Elements -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md">
+<div class="relative flex-1 w-full">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<input class="w-full h-11 pl-11 pr-space-md bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container/20 transition-all" placeholder="Cari nama pasien, No. RM (misal 141306), diagnosa awal..." type="text"/>
+</div>
+<div class="flex items-center gap-space-xs w-full sm:w-auto">
+<select class="h-11 px-space-md bg-surface-container-low rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none cursor-pointer">
+<option value="">Semua Penjamin</option>
+<option value="bpjs">BPJS Kesehatan</option>
+<option value="admedika">AdMedika / Swasta</option>
+<option value="umum">Umum Mandiri</option>
+</select>
+<button class="h-11 px-space-md bg-surface-container-low text-on-surface hover:bg-surface-container rounded-xl flex items-center gap-space-xs transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">filter_list</span>
+<span class="font-label-md text-label-md hidden md:inline">Triage</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Patient Queue Cards Stack -->
+<div class="flex flex-col gap-space-sm" id="queue-container">
+<!-- PATIENT 1: ACTIVE / SEDANG DIPERIKSA (Selected High-Impact Card) -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-md transition-all hover:shadow-lg">
+<!-- Active Marker Indicator Strip -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary-container rounded-l-xl"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<!-- Left Info: Queue ID & Patient Details -->
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="flex flex-col items-center justify-center min-w-[70px] h-[72px] bg-primary-fixed rounded-xl px-space-xs">
+<span class="font-display-sm text-display-sm text-primary leading-none font-bold">A-02</span>
+<span class="font-label-sm text-label-sm text-on-primary-fixed uppercase tracking-tight mt-1">Ruang 1</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-metric-display text-headline-lg text-primary tracking-tight font-bold">
+                    RM-141306
+                  </span>
+<span class="px-space-xs py-space-2xs rounded-full bg-primary/10 text-primary font-label-sm text-label-sm uppercase font-semibold">
+                    BPJS Prioritas
+                  </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-error animate-ping"></span> VAS 8/10
+                  </span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface tracking-tight truncate mt-0.5">
+                  NY. MARIA MARTINA NATALIA D.
+                </div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap mt-space-2xs">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">person</span> 54 Th • Perempuan
+                  </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> Masuk: 08:35 WIB (24m di ruang)
+                  </span>
+<span>•</span>
+<span class="text-primary font-medium">Rehab Pasca Fraktur &amp; Nyeri Lumbal</span>
+</div>
+<div class="mt-space-xs p-space-xs bg-surface-container-low rounded-lg inline-flex items-center gap-space-xs text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">clinical_notes</span>
+<span class="font-semibold">Diagnosa Awal:</span> Coccydynia post trauma jatuh di tangga, LBP subakut
+                </div>
+</div>
+</div>
+<!-- Right Actions & Status Pill -->
+<div class="flex flex-col lg:items-end gap-space-md shrink-0">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-primary/10 text-primary font-label-md text-label-md font-semibold">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span> Sedang Diperiksa
+                </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Lihat Rekam Medis Elektronik" type="button">
+<span class="material-symbols-outlined text-[20px]">folder_open</span>
+</button>
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Panggil Pasien Lagi" type="button">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 bg-primary-container text-on-primary font-headline-sm text-headline-sm rounded-xl shadow-sm hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[18px]">stethoscope</span>
+<span>Lanjutkan Asesmen RMF-09</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- PATIENT 2: WAITING / BERIKUTNYA (Selected for Quick View right drawer) -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-sm transition-all hover:shadow-md hover:bg-surface-bright">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="flex flex-col items-center justify-center min-w-[70px] h-[72px] bg-surface-container text-on-surface-variant rounded-xl px-space-xs">
+<span class="font-display-sm text-display-sm text-on-surface leading-none font-bold">A-03</span>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-tight mt-1">Urutan #3</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-bold">
+                    RM-141882
+                  </span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase font-semibold">
+                    AdMedika (Avrist)
+                  </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm">
+                    VAS 6/10
+                  </span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface tracking-tight truncate mt-0.5">
+                  TN. SOEGIHARTO WIJAYA
+                </div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap mt-space-2xs">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">person</span> 67 Th • Laki-laki
+                  </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> Hadir: 08:42 WIB (Menunggu 21 mnt)
+                  </span>
+<span>•</span>
+<span>Evaluasi Stroke Sesi #4</span>
+</div>
+<div class="mt-space-xs p-space-xs bg-surface-container-low rounded-lg inline-flex items-center gap-space-xs text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary">accessibility_new</span>
+<span class="font-semibold">Keluhan:</span> Hemiparesis Dextra post Ischemic Stroke, spastisitas fleksor jari tangan
+                </div>
+</div>
+</div>
+<!-- Right Actions -->
+<div class="flex flex-col lg:items-end gap-space-md shrink-0">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-surface-container-high text-on-secondary-container font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-outline"></span> Menunggu Panggilan
+                </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Riwayat EMR Pasien" type="button">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+</button>
+<button class="p-2.5 rounded-xl bg-primary/10 hover:bg-primary/20 text-primary transition-colors" title="Panggil Speaker Poli" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-lg py-2.5 bg-primary text-on-primary font-headline-sm text-headline-sm rounded-xl shadow-sm hover:bg-primary-container transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_square</span>
+<span>Mulai Periksa</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- PATIENT 3: WAITING -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-sm transition-all hover:shadow-md hover:bg-surface-bright">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="flex flex-col items-center justify-center min-w-[70px] h-[72px] bg-surface-container text-on-surface-variant rounded-xl px-space-xs">
+<span class="font-display-sm text-display-sm text-on-surface leading-none font-bold">A-04</span>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-tight mt-1">Urutan #4</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-bold">
+                    RM-140219
+                  </span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase font-semibold">
+                    Umum / Pribadi
+                  </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm">
+                    VAS 5/10
+                  </span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface tracking-tight truncate mt-0.5">
+                  NY. HENDRIKA SUTANTO
+                </div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap mt-space-2xs">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">person</span> 48 Th • Perempuan
+                  </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> Hadir: 08:50 WIB (Menunggu 13 mnt)
+                  </span>
+<span>•</span>
+<span>Kunjungan Pertama</span>
+</div>
+<div class="mt-space-xs p-space-xs bg-surface-container-low rounded-lg inline-flex items-center gap-space-xs text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-error">front_hand</span>
+<span class="font-semibold">Keluhan:</span> Adhesive Capsulitis (Frozen Shoulder Dextra), elevasi terbatas 90 derajat
+                </div>
+</div>
+</div>
+<!-- Right Actions -->
+<div class="flex flex-col lg:items-end gap-space-md shrink-0">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-surface-container-high text-on-secondary-container font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-outline"></span> Menunggu Panggilan
+                </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Riwayat Pasien" type="button">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+</button>
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Panggil Antrean" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-lg py-2.5 bg-primary text-on-primary font-headline-sm text-headline-sm rounded-xl shadow-sm hover:bg-primary-container transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">stethoscope</span>
+<span>Mulai Periksa</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- PATIENT 4: WAITING (Acute Lumbar Alert) -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-lg shadow-sm transition-all hover:shadow-md hover:bg-surface-bright">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="flex flex-col items-center justify-center min-w-[70px] h-[72px] bg-surface-container text-on-surface-variant rounded-xl px-space-xs">
+<span class="font-display-sm text-display-sm text-on-surface leading-none font-bold">A-05</span>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-tight mt-1">Urutan #5</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-bold">
+                    RM-139870
+                  </span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase font-semibold">
+                    BPJS Non-PBI
+                  </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span> VAS 7/10
+                  </span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface tracking-tight truncate mt-0.5">
+                  TN. AHMAD HIDAYAT
+                </div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap mt-space-2xs">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">person</span> 42 Th • Laki-laki
+                  </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> Hadir: 08:58 WIB (Menunggu 5 mnt)
+                  </span>
+<span>•</span>
+<span>Pekerja Angkat Berat</span>
+</div>
+<div class="mt-space-xs p-space-xs bg-surface-container-low rounded-lg inline-flex items-center gap-space-xs text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-error">airline_seat_recline_extra</span>
+<span class="font-semibold">Keluhan:</span> Radikulopati Lumbal L4-L5 ec suspect HNP, kesemutan menjalar ke tungkai kanan
+                </div>
+</div>
+</div>
+<div class="flex flex-col lg:items-end gap-space-md shrink-0">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-surface-container-high text-on-secondary-container font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-outline"></span> Menunggu Panggilan
+                </span>
+</div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Riwayat Pasien" type="button">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+</button>
+<button class="p-2.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" title="Panggil Antrean" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-lg py-2.5 bg-primary text-on-primary font-headline-sm text-headline-sm rounded-xl shadow-sm hover:bg-primary-container transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">stethoscope</span>
+<span>Mulai Periksa</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- PATIENT 5: COMPLETED (Selesai Hari Ini) -->
+<div class="group relative bg-surface-container-lowest/80 rounded-xl p-space-lg shadow-sm opacity-85 hover:opacity-100 transition-all">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="flex flex-col items-center justify-center min-w-[70px] h-[72px] bg-tertiary/10 text-tertiary rounded-xl px-space-xs">
+<span class="font-display-sm text-display-sm leading-none font-bold">A-01</span>
+<span class="font-label-sm text-label-sm uppercase tracking-tight mt-1">Selesai</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-headline-lg text-headline-lg text-outline tracking-tight font-bold">
+                    RM-137255
+                  </span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase font-semibold">
+                    BPJS Mandiri
+                  </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-space-2xs rounded-full bg-tertiary-fixed text-tertiary-container font-label-sm text-label-sm">
+                    Protokol TENS + MWD
+                  </span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface-variant tracking-tight truncate mt-0.5 line-through">
+                  NY. SITI FATIMAH ZAHRA
+                </div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm flex-wrap mt-space-2xs">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">person</span> 61 Th • Perempuan
+                  </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Selesai: 08:34 WIB (Durasi 16 mnt)
+                  </span>
+</div>
+<div class="mt-space-xs p-space-xs bg-surface-container-low rounded-lg inline-flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary">task_alt</span>
+<span>Telah dirujuk ke Fisioterapi (Bed 4) - Dr. Bambang Sp.OT Signature Validated</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col lg:items-end gap-space-md shrink-0">
+<span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-tertiary/10 text-tertiary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[16px]">check</span> Selesai Konsultasi
+              </span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-2 bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md rounded-xl transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span> Resume Medis
+                </button>
+<button class="px-space-md py-2 bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md rounded-xl transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span> Lihat RMF-09
+                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination / Count Footer -->
+<div class="flex items-center justify-between px-space-md py-space-sm bg-surface-container-lowest rounded-xl shadow-sm">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          Menampilkan <span class="font-semibold text-on-surface">5</span> dari <span class="font-semibold text-on-surface">18</span> antrean terdaftar hari ini
+        </span>
+<div class="flex items-center gap-space-xs">
+<button class="p-2 rounded-lg bg-surface-container-low text-outline disabled:opacity-40" disabled="" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<span class="px-space-sm font-label-md text-label-md text-on-surface">1 / 4</span>
+<button class="p-2 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- RIGHT PANEL: Dedicated Patient Snapshot & Clinical Quick Tools (Col-span 4) -->
+<div class="xl:col-span-4 flex flex-col gap-space-base">
+<!-- Patient Snapshot Card (In-Clinic Focus) -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md relative overflow-hidden">
+<div class="flex items-center justify-between border-b border-surface-container pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Snapshot Pasien Terpilih</span>
+</div>
+<span class="px-space-xs py-space-2xs bg-primary/10 text-primary rounded-full font-label-sm text-label-sm font-semibold">
+            Antrean A-02
+          </span>
+</div>
+<!-- Patient Mini Bio -->
+<div class="flex items-start gap-space-md">
+<div class="w-14 h-14 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-display-sm text-display-sm font-bold shrink-0">
+            M
+          </div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-md text-headline-md text-on-surface truncate font-semibold">
+              Ny. Maria Martina N. D.
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+              No. RM: <strong class="text-primary font-bold">141306</strong> • NIK: 3578019283720002
+            </span>
+<span class="font-label-sm text-label-sm text-outline mt-0.5">
+              54 Th • Surabaya • BPJS Kesehatan (Kelas 1)
+            </span>
+</div>
+</div>
+<!-- Vital Signs Biotelemetry Matrix -->
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-low p-space-sm rounded-xl">
+<div class="flex flex-col items-center justify-center bg-surface-container-lowest p-space-xs rounded-lg shadow-2xs text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tensi Darah</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold mt-0.5">128/82</span>
+<span class="font-label-sm text-label-sm text-tertiary">Normal</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-surface-container-lowest p-space-xs rounded-lg shadow-2xs text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Nadi / BPM</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold mt-0.5">76 bpm</span>
+<span class="font-label-sm text-label-sm text-primary">Reguler</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-surface-container-lowest p-space-xs rounded-lg shadow-2xs text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Nyeri VAS</span>
+<span class="font-headline-sm text-headline-sm text-error font-bold mt-0.5">8 / 10</span>
+<span class="font-label-sm text-label-sm text-error">Nyeri Akut</span>
+</div>
+</div>
+<!-- Mini Visual Body Mapping Indicator (Inline SVG Orthopedic Human Silhouette) -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low/50 p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">accessibility</span>
+              Peta Lokasi Nyeri &amp; Defisit ROM
+            </span>
+<span class="font-label-sm text-label-sm text-error font-semibold">2 Titik Terdeteksi</span>
+</div>
+<div class="relative w-full h-44 bg-surface-container-lowest rounded-lg flex items-center justify-center p-space-sm overflow-hidden">
+<!-- Anatomic Silhouette Representation with Localized Flare -->
+<svg class="h-36 w-auto text-outline-variant/60" fill="currentColor" viewbox="0 0 100 200">
+<!-- Head -->
+<circle cx="50" cy="22" r="14"></circle>
+<!-- Neck -->
+<rect height="8" rx="2" width="8" x="46" y="36"></rect>
+<!-- Torso -->
+<path d="M 32 44 L 68 44 L 64 105 L 36 105 Z"></path>
+<!-- Left Arm -->
+<path d="M 30 46 L 22 95 L 18 135 L 24 135 L 28 98 L 34 50 Z"></path>
+<!-- Right Arm -->
+<path d="M 70 46 L 78 95 L 82 135 L 76 135 L 72 98 L 66 50 Z"></path>
+<!-- Pelvis & Legs -->
+<path d="M 36 105 L 64 105 L 62 155 L 59 195 L 53 195 L 52 145 L 48 145 L 47 195 L 41 195 L 38 155 Z"></path>
+</svg>
+<!-- Interactive Joint Pinpoint 1: Lumbo-Sacral & Coccyx (Active Pain Flare) -->
+<div class="absolute left-[50%] top-[56%] -translate-x-1/2 -translate-y-1/2 group/pin cursor-pointer">
+<span class="absolute -inset-2 rounded-full bg-error/30 animate-ping"></span>
+<span class="relative flex h-4 w-4 rounded-full bg-error ring-2 ring-surface-container-lowest shadow-md items-center justify-center text-[10px] text-on-error font-bold">!</span>
+<!-- Floating Tooltip -->
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/pin:flex flex-col bg-inverse-surface text-inverse-on-surface p-space-xs rounded-lg shadow-lg text-[11px] whitespace-nowrap z-20">
+<span class="font-bold text-error-container">Os Coccygis &amp; Sacroiliac</span>
+<span>VAS: 8/10 • Spasme Paraspinal</span>
+</div>
+</div>
+<!-- Interactive Joint Pinpoint 2: Right Hip/Trochanter -->
+<div class="absolute left-[40%] top-[63%] -translate-x-1/2 -translate-y-1/2 group/pin cursor-pointer">
+<span class="relative flex h-3 w-3 rounded-full bg-primary ring-2 ring-surface-container-lowest shadow-sm"></span>
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/pin:flex flex-col bg-inverse-surface text-inverse-on-surface p-space-xs rounded-lg shadow-lg text-[11px] whitespace-nowrap z-20">
+<span class="font-bold text-primary-fixed">Hip Dextra</span>
+<span>Defisit Ekstensi 15°</span>
+</div>
+</div>
+<!-- Caption label -->
+<div class="absolute bottom-1 right-2 font-label-sm text-label-sm text-on-surface-variant bg-surface-container-lowest/80 px-1.5 rounded">
+              Posterior View
+            </div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant mt-1">
+<span>Rujukan: Sp.OT dr. Bambang</span>
+<a class="text-primary hover:underline font-semibold flex items-center gap-0.5" href="#">
+              Buka Anamnesis Penuh <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Quick Access Diagnostic CTAs -->
+<div class="grid grid-cols-2 gap-space-xs">
+<a class="flex flex-col items-center justify-center p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface text-center transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px] text-primary">assignment_add</span>
+<span class="font-label-md text-label-md font-semibold mt-1">Formulir RMF-09</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Protokol Asesmen</span>
+</a>
+<a class="flex flex-col items-center justify-center p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface text-center transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px] text-tertiary">send_to_mobile</span>
+<span class="font-label-md text-label-md font-semibold mt-1">Kirim ke Fisioterapi</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Order Langsung</span>
+</a>
+</div>
+</div>
+<!-- Quick Doctor Scratchpad / Clinical Memo Widget -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary">edit_note</span>
+            Catatan Klinis Dokter
+          </span>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> Auto-saved
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Memo internal dokter untuk asisten fisioterapis &amp; perawat poli hari ini:
+        </p>
+<textarea class="w-full p-space-sm bg-surface-container-low rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container/20 transition-all resize-none" placeholder="Tulis instruksi khusus (misal: Cek foto rontgen lumbosacral sebelum latihan traksi)..." rows="3">Catatan: Pasien fraktur patologis mohon dihindari stimulasi arus tens intensitas tinggi. Utamakan deep breathing &amp; isometric exercise quad.</textarea>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-2xs text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">lock</span> Khusus Tim Medis Ruang 1
+          </div>
+<button class="px-space-md py-1.5 bg-secondary-container text-on-secondary-fixed rounded-lg font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">
+            Simpan Memo
+          </button>
+</div>
+</div>
+<!-- Quick Room Switcher & Schedule -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Jadwal Praktik Lanjutan</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">RKZ Lt. 2</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between p-space-xs bg-surface-container-low rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span>
+<span class="font-body-sm text-body-sm font-semibold">Poli Pagi (08:00 - 12:00)</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Selesai (14 Pasien)</span>
+</div>
+<div class="flex items-center justify-between p-space-xs bg-primary/10 rounded-lg text-primary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px]">radio_button_checked</span>
+<span class="font-body-sm text-body-sm font-bold">Poli Sore (14:00 - 18:00)</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold">Aktif Sekarang</span>
+</div>
+<div class="flex items-center justify-between p-space-xs bg-surface-container-low rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-outline">schedule</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Visite Bed Inap Neuro (18:30)</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">4 Bed Terjadwal</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for Doctor's queue caller sound & toast cue
+  document.getElementById('btn-speaker-panggil')?.addEventListener('click', function() {
+    const btn = this;
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">refresh</span><span>Memanggil A-03...</span>';
+    btn.classList.add('opacity-90');
+    
+    setTimeout(() => {
+      btn.innerHTML = '<span class="material-symbols-outlined text-[20px]">done_all</span><span>A-03 Terpanggil (Speaker Aktif)</span>';
+      btn.classList.remove('bg-primary');
+      btn.classList.add('bg-tertiary');
+      
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.classList.remove('bg-tertiary', 'opacity-90');
+        btn.classList.add('bg-primary');
+      }, 2500);
+    }, 1000);
+  });
+</script></main></div></body></html>

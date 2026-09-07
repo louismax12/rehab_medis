@@ -1,0 +1,747 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>RehabMedik Enterprise Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary": "#006242", "on-secondary-fixed": "#131b2e", "on-tertiary-fixed-variant": "#005236", "inverse-surface": "#213145", "on-secondary-container": "#5c647a", "secondary-container": "#dae2fd", "tertiary-fixed": "#6ffbbe", "surface-container-high": "#dce9ff", "primary": "#004ac6", "tertiary-container": "#007d55", "surface-container-lowest": "#ffffff", "on-background": "#0b1c30", "on-secondary-fixed-variant": "#3f465c", "error": "#ba1a1a", "on-primary": "#ffffff", "error-container": "#ffdad6", "on-primary-fixed": "#00174b", "outline": "#737686", "on-secondary": "#ffffff", "on-surface-variant": "#434655", "surface-variant": "#d3e4fe", "surface-container": "#e5eeff", "on-tertiary": "#ffffff", "surface-container-highest": "#d3e4fe", "primary-fixed": "#dbe1ff", "surface-container-low": "#eff4ff", "surface-bright": "#f8f9ff", "on-tertiary-fixed": "#002113", "secondary": "#565e74", "on-primary-fixed-variant": "#003ea8", "surface-dim": "#cbdbf5", "on-surface": "#0b1c30", "secondary-fixed": "#dae2fd", "on-primary-container": "#eeefff", "inverse-on-surface": "#eaf1ff", "primary-fixed-dim": "#b4c5ff", "surface-tint": "#0053db", "tertiary-fixed-dim": "#4edea3", "outline-variant": "#c3c6d7", "primary-container": "#2563eb", "secondary-fixed-dim": "#bec6e0", "inverse-primary": "#b4c5ff", "on-error-container": "#93000a", "surface": "#f8f9ff", "on-tertiary-container": "#bdffdb", "on-error": "#ffffff", "background": "#f8f9ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "sidebar-width": "16.5rem", "space-md": "0.75rem", "space-2xs": "0.125rem", "gutter-table": "1rem", "sidebar-collapsed": "4.5rem", "space-xs": "0.25rem", "space-base": "1rem", "space-2xl": "2rem", "space-xl": "1.5rem", "space-sm": "0.5rem", "space-3xl": "3rem", "space-lg": "1.25rem" }, "fontFamily": { "display-lg": ["Outfit"], "headline-lg": ["Outfit"], "body-sm": ["Inter"], "metric-display": ["Outfit"], "body-md": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"], "headline-md": ["Outfit"], "label-md": ["Inter"], "headline-sm": ["Outfit"], "display-sm": ["Outfit"] }, "fontSize": { "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "metric-display": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "display-sm": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-inverse-surface text-inverse-on-surface z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="h-16 flex items-center px-space-xl gap-space-md bg-inverse-surface"><img alt="RehabMedik Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V57r84H8dCObGCTZ0wraLnUXjos9IE7A_wxxzNGJz-q32_5YE4UKMJrwdjw5KF2SkTzIBm5qFXuX_PxL7ut8Z1-IidbfolQOZbRUHicva7EXn7pw4aRJZ7uA-RphXhllpaI-BYxnpobbcCzFqfEzHmVLkIo_gy8ji55s0d95CUirkIb6MYLFYGzB0l-Pp-Lxi6Xm1qhRiKhk2kmjIYmOhpoYyOI1fMdoIAMfx1jbsqygDAPKszTq8kff8"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm leading-tight text-surface-container-lowest tracking-tight">RehabMedik</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-outline-variant">RKZ Hospital Enterprise</span></div></div><div class="px-space-xl py-space-sm"><div class="h-px bg-on-surface-variant/20 w-full"></div></div><div class="px-space-md py-space-xs"><span class="px-space-md font-label-sm text-label-sm uppercase tracking-wider text-outline-variant">Clinical Workflow</span></div><nav class="flex flex-col gap-space-xs px-space-md" data-active-classes="bg-primary-container text-on-primary font-headline-sm shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]"><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg transition-all bg-primary-container text-on-primary font-headline-sm shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="antrean-pasien" href="#"><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-[20px]">groups</span><span class="font-body-md text-body-md">Antrean Pasien</span></div><span class="px-space-xs py-space-2xs bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm rounded-full">14</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="rekam-medis" href="#"><span class="material-symbols-outlined text-[20px]">folder_shared</span><span class="font-body-md text-body-md">Rekam Medis</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="anamnesis-dan-pemetaan" href="#"><span class="material-symbols-outlined text-[20px]">accessibility_new</span><span class="font-body-md text-body-md">Anamnesis &amp; Pemetaan</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="fisioterapi-dan-terapi-wicara" href="#"><span class="material-symbols-outlined text-[20px]">vital_signs</span><span class="font-body-md text-body-md">Fisioterapi &amp; Terapi</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="laporan-dan-statistik" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-body-md text-body-md">Laporan &amp; Statistik</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="pengaturan" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-body-md text-body-md">Pengaturan</span></a></nav></div><div class="p-space-md"><div class="bg-on-surface-variant/10 rounded-xl p-space-md flex flex-col gap-space-sm"><div class="flex items-center gap-space-md"><div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-headline-sm"><span class="material-symbols-outlined text-[20px]">stethoscope</span></div><div class="flex flex-col min-w-0 flex-1"><span class="font-body-md text-body-md font-semibold text-surface-container-lowest truncate">Dr. Bambang P., Sp.OT</span><span class="font-label-sm text-label-sm text-outline-variant truncate">Subsp. O.T.B. Rehab</span></div></div><div class="flex items-center justify-between pt-space-xs border-t border-on-surface-variant/20"><span class="font-label-sm text-label-sm text-tertiary-fixed flex items-center gap-space-xs"><span class="inline-block w-2 h-2 rounded-full bg-tertiary-fixed"></span> Shift On-Duty</span><button class="font-label-sm text-label-sm text-secondary-fixed hover:text-surface-container-lowest flex items-center gap-space-2xs" type="button"><span class="material-symbols-outlined text-[16px]">sync_alt</span> Ganti</button></div></div></div></aside><div class="pl-sidebar-width min-h-screen flex flex-col"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 px-space-xl flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xl flex-1 max-w-2xl"><img alt="RehabMedik Logo" class="h-8 w-auto object-contain hidden" src="https://lh3.googleusercontent.com/aida/AEtjO1V57r84H8dCObGCTZ0wraLnUXjos9IE7A_wxxzNGJz-q32_5YE4UKMJrwdjw5KF2SkTzIBm5qFXuX_PxL7ut8Z1-IidbfolQOZbRUHicva7EXn7pw4aRJZ7uA-RphXhllpaI-BYxnpobbcCzFqfEzHmVLkIo_gy8ji55s0d95CUirkIb6MYLFYGzB0l-Pp-Lxi6Xm1qhRiKhk2kmjIYmOhpoYyOI1fMdoIAMfx1jbsqygDAPKszTq8kff8"><div class="relative w-full max-w-lg"><span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Cari No. RM, Nama Pasien, NIK..." type="search"></div><div class="hidden xl:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-tertiary"></span><span class="">Poli Sore - Aktif</span></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">calendar_today</span><span class="">Kamis, 24 Okt 2024</span></div><button class="relative p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-2.5 h-2.5 rounded-full bg-error ring-2 ring-surface-container-lowest"></span></button><button class="inline-flex items-center gap-space-xs h-10 px-space-lg bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">person_add</span><span class="">+ Pasien Baru</span></button><div class="flex items-center gap-space-sm pl-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full px-space-xl pt-16 bg-background flex-1"><div class="flex flex-col w-full pb-space-3xl">
+<!-- Top Context / Breadcrumbs Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md py-space-md">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="hover:text-primary transition-colors cursor-pointer">Instalasi Rehabilitasi Medik</span>
+<span class="material-symbols-outlined text-[16px] text-outline-variant">chevron_right</span>
+<span class="hover:text-primary transition-colors cursor-pointer">Pelayanan Loket</span>
+<span class="material-symbols-outlined text-[16px] text-outline-variant">chevron_right</span>
+<span class="text-primary font-semibold">Registrasi &amp; Antrean Kunjungan</span>
+</div>
+<!-- Active Operational Badge -->
+<div class="flex items-center gap-space-sm bg-surface-container px-space-md py-space-xs rounded-full shadow-sm">
+<span class="flex h-2.5 w-2.5 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold tracking-wide">LOKET 02 - ADMISI AKTIF</span>
+<span class="text-outline-variant font-label-sm text-label-sm">|</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[15px]">schedule</span> Kamis, 15 Mei 2025 • Shift Pagi (08:00 - 14:00)
+      </span>
+</div>
+</div>
+<!-- Main Headline Block with Visual Telemetry -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-xl shadow-sm mb-space-xl">
+<div class="absolute right-0 top-0 -mt-6 -mr-6 w-96 h-96 bg-primary-container/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-space-lg">
+<div>
+<div class="flex items-center gap-space-sm mb-space-xs">
+<span class="px-space-xs py-space-2xs bg-primary/10 text-primary rounded font-label-sm text-label-sm uppercase tracking-wider font-semibold">ADMISI RAWAT JALAN</span>
+<span class="text-outline-variant font-label-sm text-label-sm">•</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Rehabilitasi Medik Terpadu RKZ</span>
+</div>
+<h1 class="font-display-sm text-display-sm text-on-surface tracking-tight font-semibold">Registrasi Kunjungan Pasien Poli Rehab</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-2xs max-w-3xl">
+          Pendaftaran pemeriksaan spesialis KFR, penjadwalan fisioterapi, dan alokasi kuota antrean poli klinik otomatis secara terintegrasi dengan SIMRS.
+        </p>
+</div>
+<!-- Quick Metrics Pill Counter -->
+<div class="flex items-center gap-space-md self-start lg:self-auto">
+<div class="bg-surface-container-low px-space-lg py-space-sm rounded-lg flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary">Sisa Kuota Pagi</span>
+<div class="flex items-baseline gap-space-xs mt-space-2xs">
+<span class="font-metric-display text-metric-display text-primary font-bold">14</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ 60 kursi</span>
+</div>
+</div>
+<div class="bg-surface-container-low px-space-lg py-space-sm rounded-lg flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary">Rata-rata Waktu Tunggu</span>
+<div class="flex items-baseline gap-space-xs mt-space-2xs">
+<span class="font-metric-display text-metric-display text-tertiary font-bold">18</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">menit</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Registration Form Card: Bento-Structured Formulir Alokasi Antrean -->
+<section class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden mb-space-2xl">
+<div class="px-space-xl py-space-lg bg-surface-container-low flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">how_to_reg</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Formulir Alokasi Antrean &amp; Pendaftaran Kunjungan</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Isi parameter kunjungan pasien untuk menerbitkan nomor antrean poli dan lembar tracer</p>
+</div>
+</div>
+<!-- Auto Generated Registration ID Display -->
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">fingerprint</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline font-semibold uppercase tracking-wider">No. Registrasi Sistem</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight" id="reg-no-badge">REG-20250515-0047</span>
+</div>
+</div>
+</div>
+<!-- Interactive Registration Form -->
+<form class="p-space-xl flex flex-col gap-space-xl" id="form-registrasi" onsubmit="event.preventDefault(); submitRegistration();">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-space-xl">
+<!-- Field 1: Cari & Pilih Pasien (Autocomplete Pattern) -->
+<div class="xl:col-span-2 flex flex-col gap-space-xs relative">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-primary">person_search</span>
+              Pilih Pasien (No. RM / NIK / Nama)
+            </label>
+<button class="text-primary font-label-sm text-label-sm font-semibold hover:underline flex items-center gap-space-2xs" type="button">
+<span class="material-symbols-outlined text-[14px]">add_circle</span> Pasien Baru
+            </button>
+</div>
+<div class="relative">
+<input class="w-full h-11 pl-11 pr-24 bg-surface-container-lowest rounded-lg font-body-md text-body-md text-on-surface placeholder:text-outline shadow-sm focus:outline-none focus:bg-surface-container-low transition-all" id="patient-search-input" placeholder="Ketik No. RM atau nama pasien..." type="text" value="141306 - NY. MARIA MARTINA NATALIA D.">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<span class="absolute right-space-md top-1/2 -translate-y-1/2 px-space-xs py-space-2xs bg-surface-container text-on-secondary-container font-label-sm text-label-sm rounded uppercase font-semibold">
+              RM VALID
+            </span>
+</div>
+<!-- Selected Patient Quick Bio Pill -->
+<div class="flex items-center gap-space-md px-space-md py-space-xs bg-surface-container-low rounded-lg text-on-surface-variant font-body-sm text-body-sm">
+<span class=""><strong class="text-on-surface">NIK:</strong> 3578234809880002</span>
+<span class="">•</span>
+<span class=""><strong class="text-on-surface">Usia:</strong> 52 Th (P)</span>
+<span class="">•</span>
+<span class="text-tertiary font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[14px]">verified</span> Rekam Medis Terverifikasi
+            </span>
+</div>
+</div>
+<!-- Field 2: DPJP Pilihan -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-primary">stethoscope</span>
+            Dokter Penanggung Jawab (DPJP)
+          </label>
+<div class="relative">
+<select class="w-full h-11 px-space-md bg-surface-container-lowest rounded-lg font-body-md text-body-md text-on-surface shadow-sm focus:outline-none focus:bg-surface-container-low transition-all appearance-none cursor-pointer" id="doctor-select">
+<option selected="" value="dr_bambang">Prof. Dr. dr. Bambang P., Sp.OT (Subsp. O.T.B.)</option>
+<option value="dr_stephanie">dr. Stephanie Salim, Sp.KFR - Poli Pagi</option>
+<option value="dr_herman">dr. Herman Susanto, Sp.KFR - Poli Sore</option>
+<option value="dr_dewi">dr. Dewi Anggraini, Sp.KFR - Neuro Rehab</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px] pointer-events-none">arrow_drop_down</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center gap-space-2xs mt-space-2xs">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> Praktek Aktif: R. Konsul 1 (08:30 - 13:00)
+          </span>
+</div>
+<!-- Field 3: Sesi & Tanggal Kunjungan -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-primary">event_available</span>
+            Sesi &amp; Waktu Kedatangan
+          </label>
+<div class="grid grid-cols-2 gap-space-xs">
+<input class="h-11 px-space-sm bg-surface-container-lowest rounded-lg font-body-md text-body-md text-on-surface shadow-sm focus:outline-none focus:bg-surface-container-low" type="date" value="2025-05-15">
+<select class="h-11 px-space-sm bg-surface-container-lowest rounded-lg font-body-md text-body-md text-on-surface shadow-sm focus:outline-none focus:bg-surface-container-low appearance-none cursor-pointer">
+<option selected="" value="pagi">Sesi 1 (Pagi)</option>
+<option value="sore">Sesi 2 (Sore)</option>
+<option value="terapi">Jadwal Terapi Khusus</option>
+</select>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-space-2xs">Estimasi giliran diperiksa: ~15 mnt</span>
+</div>
+<!-- Field 4: Jenis Pembayaran & Penjamin -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-primary">credit_card</span>
+            Jenis Pembayaran / Penjamin
+          </label>
+<div class="relative">
+<select class="w-full h-11 px-space-md bg-surface-container-lowest rounded-lg font-body-md text-body-md text-on-surface shadow-sm focus:outline-none focus:bg-surface-container-low transition-all appearance-none cursor-pointer" id="penjamin-select">
+<option selected="" value="bpjs">BPJS Kesehatan (SEP Terverifikasi)</option>
+<option value="umum">Umum / Pembayaran Pribadi</option>
+<option value="admedika">Asuransi Swasta - AdMedika</option>
+<option value="prudential">Asuransi Swasta - Prudential Medilink</option>
+<option value="perusahaan">Jaminan Perusahaan Mitra RKZ</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px] pointer-events-none">arrow_drop_down</span>
+</div>
+<div class="flex items-center gap-space-xs mt-space-2xs">
+<span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-fixed px-space-xs py-space-2xs rounded">SEP: 0145R0050525V001890</span>
+</div>
+</div>
+<!-- Field 5: Keluhan Utama / Rujukan Awal -->
+<div class="xl:col-span-3 flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[16px] text-primary">clinical_notes</span>
+            Keluhan Klinis Utama / Indikasi Terapi
+          </label>
+<div class="relative">
+<input class="w-full h-11 pl-space-md pr-space-xl bg-surface-container-lowest rounded-lg font-body-md text-body-md text-on-surface placeholder:text-outline shadow-sm focus:outline-none focus:bg-surface-container-low transition-all" id="keluhan-input" placeholder="Contoh: Nyeri sendi bahu pasca stroke, evaluasi gait training..." type="text" value="Nyeri tulang ekor (Coccydynia) / Kontrol rutin pasca traksi lumbal sesi ke-4">
+<button class="absolute right-space-md top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary" title="Gunakan template rujukan" type="button">
+<span class="material-symbols-outlined text-[20px]">content_paste</span>
+</button>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-space-2xs">
+<span class="font-label-sm text-label-sm text-secondary font-medium">Tag Cepat:</span>
+<button class="font-label-sm text-label-sm px-space-xs py-space-2xs rounded bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" onclick="setQuickTag('Nyeri Tulang Belakang (LBP)')" type="button">LBP Akut</button>
+<button class="font-label-sm text-label-sm px-space-xs py-space-2xs rounded bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" onclick="setQuickTag('Rehabilitasi Pasca Stroke Fase Subakut')" type="button">Pasca Stroke</button>
+<button class="font-label-sm text-label-sm px-space-xs py-space-2xs rounded bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" onclick="setQuickTag('Frozen Shoulder Bilateral Dextra')" type="button">Frozen Shoulder</button>
+<button class="font-label-sm text-label-sm px-space-xs py-space-2xs rounded bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" onclick="setQuickTag('Evaluasi Skoliosis &amp; Terapi Postur')" type="button">Skoliosis</button>
+</div>
+</div>
+</div>
+<!-- Action Panel & Print Utilities -->
+<div class="pt-space-lg flex flex-wrap items-center justify-between gap-space-md bg-surface-bright p-space-md rounded-lg">
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-space-xs">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-0 cursor-pointer" id="auto-print" type="checkbox">
+<label class="font-label-md text-label-md text-on-surface cursor-pointer select-none" for="auto-print">
+              Otomatis cetak barcode fisik &amp; tracer rekam medis ke printer counter
+            </label>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<button class="inline-flex items-center gap-space-xs h-11 px-space-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md rounded-lg shadow-sm hover:bg-surface-container transition-all" onclick="previewTracerModal()" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span class="">Cetak Lembar Antrean</span>
+</button>
+<button class="inline-flex items-center gap-space-xs h-11 px-space-xl bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-md hover:bg-primary-container transition-all" type="submit">
+
+<span class="">Daftarkan ke Antrean Poli</span>
+</button>
+</div>
+</div>
+</form>
+</section>
+<!-- Section: Antrean Kunjungan Aktif Hari Ini -->
+<section class="flex flex-col gap-space-lg">
+<!-- Header Controls & Filters -->
+<div class="flex flex-col xl:flex-row xl:items-center xl:justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Antrean Kunjungan Aktif Hari Ini</h3>
+<span class="px-space-xs py-space-2xs rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-semibold">46 Pasien Terdaftar</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs">Real-time status triage poli rehabilitasi medik, pemanggilan speaker admisi, dan routing rekam medis</p>
+</div>
+<!-- Quick Action Cluster: Search & Audio Caller Indicator -->
+<div class="flex flex-wrap items-center gap-space-md">
+<div class="relative w-72">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">filter_list</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-lowest rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-outline shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" id="queue-search" onkeyup="filterQueueList()" placeholder="Cari antrean / pasien..." type="text">
+</div>
+<button class="h-10 px-space-md bg-tertiary text-on-tertiary rounded-lg font-label-md text-label-md flex items-center gap-space-xs shadow-sm hover:bg-tertiary-container transition-all" onclick="broadcastNextQueue()" type="button">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+<span class="">Panggil Nomor Berikutnya</span>
+</button>
+</div>
+</div>
+<!-- Filter Segmented Tabs Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-low p-space-xs rounded-xl shadow-sm">
+<div class="flex items-center gap-space-2xs">
+<button class="tab-filter-btn px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md font-semibold shadow-sm transition-all flex items-center gap-space-xs" onclick="switchFilterTab(this, 'all')" type="button">
+<span class="">Semua Status</span>
+<span class="px-space-xs py-space-2xs bg-primary/10 text-primary rounded-full font-label-sm text-label-sm">46</span>
+</button>
+<button class="tab-filter-btn px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all flex items-center gap-space-xs" onclick="switchFilterTab(this, 'waiting')" type="button">
+<span class="">Menunggu Dokter</span>
+<span class="px-space-xs py-space-2xs bg-surface-container text-secondary rounded-full font-label-sm text-label-sm">18</span>
+</button>
+<button class="tab-filter-btn px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all flex items-center gap-space-xs" onclick="switchFilterTab(this, 'in-progress')" type="button">
+<span class="">Sedang Diperiksa</span>
+<span class="px-space-xs py-space-2xs bg-primary-container/20 text-primary-container rounded-full font-label-sm text-label-sm">4</span>
+</button>
+<button class="tab-filter-btn px-space-md py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all flex items-center gap-space-xs" onclick="switchFilterTab(this, 'completed')" type="button">
+<span class="">Selesai Tindakan</span>
+<span class="px-space-xs py-space-2xs bg-tertiary/10 text-tertiary rounded-full font-label-sm text-label-sm">24</span>
+</button>
+</div>
+<div class="hidden md:flex items-center gap-space-md px-space-md font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-tertiary"></span> Selesai</span>
+<span class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span> Konsul</span>
+<span class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-secondary"></span> Tunggu</span>
+</div>
+</div>
+<!-- Active Table Panel -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse" id="queue-table">
+<thead>
+<tr class="bg-surface-container-low text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-space-sm px-space-lg w-28">No. Antrean</th>
+<th class="py-space-sm px-space-md w-28">Waktu Reg</th>
+<th class="py-space-sm px-space-md">Pasien &amp; No. Rekam Medis</th>
+<th class="py-space-sm px-space-md">Dokter DPJP / Poli</th>
+<th class="py-space-sm px-space-md">Penjamin / Keluhan</th>
+<th class="py-space-sm px-space-md">Status Kunjungan</th>
+<th class="py-space-sm px-space-lg text-right">Aksi Terpadu</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low font-body-sm text-body-sm">
+<!-- Row 1: Sedang Diperiksa -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group queue-row" data-status="in-progress">
+<td class="py-space-md px-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">RM-001</span>
+<span class="font-label-sm text-label-sm text-outline">Loket 01</span>
+</div>
+</td>
+<td class="py-space-md px-space-md font-body-md text-body-md text-on-surface">
+                08:12 WIB
+              </td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold text-label-md">
+                    MM
+                  </div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">NY. MARIA MARTINA NATALIA D.</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">RM: 141306 • 52 Th (Wanita)</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">Prof. Dr. dr. Bambang P., Sp.OT</span>
+<span class="font-label-sm text-label-sm text-outline">R. Konsultasi Ortho &amp; Traksi</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-primary">BPJS Kesehatan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-xs">Nyeri tulang ekor pasca traksi #4</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-variant text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="">Sedang Diperiksa</span>
+</span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-primary transition-colors" title="Panggil Pasien Melalui Speaker" type="button">
+<span class="material-symbols-outlined text-[20px]">record_voice_over</span>
+</button>
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" title="Cetak Lembar Tracer" type="button">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+<button class="h-8 px-space-md bg-primary-container text-on-primary rounded font-label-sm text-label-sm font-medium hover:bg-primary transition-colors" type="button">
+                    Buka EMR
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Menunggu Panggilan / Draft -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group queue-row" data-status="waiting">
+<td class="py-space-md px-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface tracking-tight">RM-002</span>
+<span class="font-label-sm text-label-sm text-outline">Loket 02</span>
+</div>
+</td>
+<td class="py-space-md px-space-md font-body-md text-body-md text-on-surface">
+                08:25 WIB
+              </td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-surface-container text-on-secondary-container flex items-center justify-center font-bold text-label-md">
+                    HW
+                  </div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">TN. HENDRA WIJAYA K.</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">RM: 110482 • 64 Th (Pria)</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">dr. Stephanie Salim, Sp.KFR</span>
+<span class="font-label-sm text-label-sm text-outline">R. Neuro-Rehabilitasi 2</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-tertiary">Umum / Pribadi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-xs">Pascavaskular hemiparesis dextra</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="">Menunggu Dokter</span>
+</span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-primary transition-colors" title="Panggil Antrean" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</button>
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" title="Cetak Barcode" type="button">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+<button class="h-8 px-space-md bg-surface-container text-on-surface rounded font-label-sm text-label-sm font-medium hover:bg-surface-container-high transition-colors" type="button">
+                    Anamnesis
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Menunggu Panggilan -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group queue-row" data-status="waiting">
+<td class="py-space-md px-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface tracking-tight">RM-003</span>
+<span class="font-label-sm text-label-sm text-outline">Kiosk Mandiri</span>
+</div>
+</td>
+<td class="py-space-md px-space-md font-body-md text-body-md text-on-surface">
+                08:34 WIB
+              </td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-surface-container text-on-secondary-container flex items-center justify-center font-bold text-label-md">
+                    SR
+                  </div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">NY. SRI RAHAYU SUBAGYO</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">RM: 094721 • 41 Th (Wanita)</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">Prof. Dr. dr. Bambang P., Sp.OT</span>
+<span class="font-label-sm text-label-sm text-outline">R. Konsultasi Ortho</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-primary">BPJS Kesehatan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-xs">Genu Osteoarthritis Bilateral Grade II</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="">Menunggu Dokter</span>
+</span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-primary transition-colors" title="Panggil Antrean" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</button>
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" title="Cetak Barcode" type="button">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+<button class="h-8 px-space-md bg-surface-container text-on-surface rounded font-label-sm text-label-sm font-medium hover:bg-surface-container-high transition-colors" type="button">
+                    Anamnesis
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Selesai Tindakan -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group queue-row" data-status="completed">
+<td class="py-space-md px-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-outline-variant tracking-tight">RM-000</span>
+<span class="font-label-sm text-label-sm text-outline">Loket 01</span>
+</div>
+</td>
+<td class="py-space-md px-space-md font-body-md text-body-md text-on-surface-variant">
+                07:55 WIB
+              </td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-label-md">
+                    AS
+                  </div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">TN. ACHMAD SOFYAN</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">RM: 198201 • 48 Th (Pria)</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">dr. Stephanie Salim, Sp.KFR</span>
+<span class="font-label-sm text-label-sm text-outline">Fisioterapi Gym &amp; Diatermi</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-secondary">AdMedika Swasta</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-xs">SWD &amp; Exercise Rotator Cuff Selesai</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span class="">Selesai Tindakan</span>
+</span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" title="Lihat Rekap Visit" type="button">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+</button>
+<button class="h-8 px-space-md bg-surface-container-low text-secondary rounded font-label-sm text-label-sm font-medium hover:bg-surface-container transition-colors" title="Billing Farmasi" type="button">
+                    Closing Admisi
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Row 5: Baru Didaftarkan / Menunggu -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group queue-row" data-status="waiting">
+<td class="py-space-md px-space-lg">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface tracking-tight">RM-004</span>
+<span class="font-label-sm text-label-sm text-outline">Loket 02</span>
+</div>
+</td>
+<td class="py-space-md px-space-md font-body-md text-body-md text-on-surface">
+                08:48 WIB
+              </td>
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-surface-container text-on-secondary-container flex items-center justify-center font-bold text-label-md">
+                    DK
+                  </div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">AN. DEVINA KANIA S.</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">RM: 204918 • 8 Th (Anak)</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface font-medium">dr. Dewi Anggraini, Sp.KFR</span>
+<span class="font-label-sm text-label-sm text-outline">Ruang Terapi Wicara &amp; Okupasi</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-primary">BPJS Kesehatan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-xs">Speech Delay &amp; Sensori Integrasi</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="">Menunggu Dokter</span>
+</span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-primary transition-colors" title="Panggil Antrean" type="button">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</button>
+<button class="p-space-xs rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" title="Cetak Barcode" type="button">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+<button class="h-8 px-space-md bg-surface-container text-on-surface rounded font-label-sm text-label-sm font-medium hover:bg-surface-container-high transition-colors" type="button">
+                    Anamnesis
+                  </button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Footer / Pagination Navigation -->
+<div class="px-space-xl py-space-md bg-surface-container-low flex flex-wrap items-center justify-between gap-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          Menampilkan <strong class="text-on-surface">5</strong> dari <strong class="text-on-surface">46</strong> antrean aktif sesi ini
+        </span>
+<div class="flex items-center gap-space-xs">
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container flex items-center justify-center shadow-sm disabled:opacity-50" disabled="" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center" type="button">1</button>
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container flex items-center justify-center shadow-sm" type="button">2</button>
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container flex items-center justify-center shadow-sm" type="button">3</button>
+<span class="text-outline">...</span>
+<button class="w-8 h-8 rounded bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container flex items-center justify-center shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Modal: Lembar Tracer Cetak / Karcis Antrean (Hidden by default) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-inverse-surface/40 backdrop-blur-sm hidden p-space-md" id="tracer-modal">
+<div class="bg-surface-container-lowest rounded-xl max-w-lg w-full shadow-2xl overflow-hidden flex flex-col">
+<!-- Modal Header -->
+<div class="px-space-xl py-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">receipt_long</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">Tracer Antrean Pasien Rehab</span>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="closeTracerModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Ticket Printable Body -->
+<div class="p-space-xl flex flex-col gap-space-lg bg-surface-container-lowest text-on-surface">
+<div class="text-center flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase font-bold text-outline">RS Katolik St. Vincentius a Paulo (RKZ)</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary mt-space-2xs">INSTALASI REHABILITASI MEDIK</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Jl. Diponegoro No. 51, Surabaya</span>
+</div>
+<div class="bg-surface-container-low p-space-lg rounded-xl text-center flex flex-col items-center justify-center">
+<span class="font-label-md text-label-md text-secondary uppercase font-semibold">Nomor Urut Antrean Poli</span>
+<span class="font-display-lg text-display-lg font-bold text-primary tracking-tight my-space-xs">RM-005</span>
+<span class="font-label-sm text-label-sm text-outline">Kamis, 15 Mei 2025 • 08:52 WIB</span>
+</div>
+<div class="space-y-space-xs font-body-sm text-body-sm">
+<div class="flex justify-between py-space-2xs">
+<span class="text-secondary">No. Rekam Medis</span>
+<span class="font-bold text-on-surface">141306</span>
+</div>
+<div class="flex justify-between py-space-2xs">
+<span class="text-secondary">Nama Pasien</span>
+<span class="font-semibold text-on-surface">NY. MARIA MARTINA NATALIA D.</span>
+</div>
+<div class="flex justify-between py-space-2xs">
+<span class="text-secondary">Dokter DPJP</span>
+<span class="text-on-surface font-medium">Prof. Dr. dr. Bambang P., Sp.OT</span>
+</div>
+<div class="flex justify-between py-space-2xs">
+<span class="text-secondary">Penjamin</span>
+<span class="text-on-surface font-medium">BPJS Kesehatan (SEP Terbit)</span>
+</div>
+<div class="flex justify-between py-space-2xs">
+<span class="text-secondary">Ruang / Poli</span>
+<span class="text-on-surface font-medium">Klinik Ortho &amp; Traksi - Lantai 2</span>
+</div>
+</div>
+<!-- Simulated Barcode -->
+<div class="flex flex-col items-center justify-center pt-space-sm">
+<div class="w-64 h-12 bg-on-surface flex items-center justify-around px-2 text-surface-container-lowest text-[10px] font-mono tracking-widest select-none">
+            || | | ||| | |||| | ||| || |||| | || |
+          </div>
+<span class="font-mono text-body-sm text-on-surface-variant mt-space-2xs">*REG-20250515-0047*</span>
+</div>
+</div>
+<!-- Modal Footer -->
+<div class="px-space-xl py-space-md bg-surface-container-low flex items-center justify-end gap-space-md">
+<button class="px-space-lg h-10 bg-surface-container-lowest text-on-surface font-label-md text-label-md rounded-lg shadow-sm hover:bg-surface-container" onclick="closeTracerModal()" type="button">
+          Tutup
+        </button>
+<button class="px-space-xl h-10 bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-md hover:bg-primary-container flex items-center gap-space-xs" onclick="printTracerAction()" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span class="">Cetak Sekarang</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-space-xl right-space-xl z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="toast-notif">
+<div class="bg-inverse-surface text-inverse-on-surface px-space-lg py-space-md rounded-xl shadow-xl flex items-center gap-space-md">
+<span class="material-symbols-outlined text-tertiary-fixed text-[24px]" id="toast-icon">check_circle</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm" id="toast-title">Pendaftaran Berhasil</span>
+<span class="font-body-sm text-body-sm text-outline-variant" id="toast-desc">Nomor antrean RM-005 siap dipanggil di Poli Ortho.</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function setQuickTag(tagValue) {
+    var keluhanInput = document.getElementById('keluhan-input');
+    if (keluhanInput) {
+      keluhanInput.value = tagValue;
+      keluhanInput.focus();
+    }
+  }
+
+  function submitRegistration() {
+    var patient = document.getElementById('patient-search-input').value;
+    var doctor = document.getElementById('doctor-select');
+    var doctorText = doctor.options[doctor.selectedIndex].text;
+    
+    // Show confirmation toast
+    showToast('Pasien Terdaftar!', 'Karcis antrean diterbitkan untuk ' + patient.split('-')[1]);
+
+    // Open Tracer Print preview
+    previewTracerModal();
+  }
+
+  function previewTracerModal() {
+    var modal = document.getElementById('tracer-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+    }
+  }
+
+  function closeTracerModal() {
+    var modal = document.getElementById('tracer-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+    }
+  }
+
+  function printTracerAction() {
+    showToast('Mencetak Tiket...', 'Data dikirimkan ke Thermal Printer Loket 02.');
+    closeTracerModal();
+  }
+
+  function broadcastNextQueue() {
+    showToast('Memanggil Antrean...', 'Speaker Loket 02: "Nomor Antrean RM-002 silakan menuju Poli Fisioterapi"');
+  }
+
+  function showToast(title, desc) {
+    var toast = document.getElementById('toast-notif');
+    var toastTitle = document.getElementById('toast-title');
+    var toastDesc = document.getElementById('toast-desc');
+    
+    if (toast && toastTitle && toastDesc) {
+      toastTitle.innerText = title;
+      toastDesc.innerText = desc;
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(function() {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-24', 'opacity-0');
+      }, 3500);
+    }
+  }
+
+  function filterQueueList() {
+    var query = document.getElementById('queue-search').value.toLowerCase();
+    var rows = document.querySelectorAll('.queue-row');
+    rows.forEach(function(row) {
+      var text = row.innerText.toLowerCase();
+      if (text.indexOf(query) > -1) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  }
+
+  function switchFilterTab(btn, status) {
+    // Update active tab buttons visual state
+    var buttons = document.querySelectorAll('.tab-filter-btn');
+    buttons.forEach(function(b) {
+      b.classList.remove('bg-surface-container-lowest', 'text-primary', 'font-semibold', 'shadow-sm');
+      b.classList.add('text-on-surface-variant');
+    });
+
+    btn.classList.remove('text-on-surface-variant');
+    btn.classList.add('bg-surface-container-lowest', 'text-primary', 'font-semibold', 'shadow-sm');
+
+    // Filter table rows
+    var rows = document.querySelectorAll('.queue-row');
+    rows.forEach(function(row) {
+      if (status === 'all') {
+        row.style.display = '';
+      } else {
+        var rowStatus = row.getAttribute('data-status');
+        if (rowStatus === status) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      }
+    });
+  }
+</script></main></div>
+
+</body></html>

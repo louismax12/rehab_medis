@@ -1,0 +1,774 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>RehabMedik Enterprise Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Outfit:wght@500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary": "#006242", "on-secondary-fixed": "#131b2e", "on-tertiary-fixed-variant": "#005236", "inverse-surface": "#213145", "on-secondary-container": "#5c647a", "secondary-container": "#dae2fd", "tertiary-fixed": "#6ffbbe", "surface-container-high": "#dce9ff", "primary": "#004ac6", "tertiary-container": "#007d55", "surface-container-lowest": "#ffffff", "on-background": "#0b1c30", "on-secondary-fixed-variant": "#3f465c", "error": "#ba1a1a", "on-primary": "#ffffff", "error-container": "#ffdad6", "on-primary-fixed": "#00174b", "outline": "#737686", "on-secondary": "#ffffff", "on-surface-variant": "#434655", "surface-variant": "#d3e4fe", "surface-container": "#e5eeff", "on-tertiary": "#ffffff", "surface-container-highest": "#d3e4fe", "primary-fixed": "#dbe1ff", "surface-container-low": "#eff4ff", "surface-bright": "#f8f9ff", "on-tertiary-fixed": "#002113", "secondary": "#565e74", "on-primary-fixed-variant": "#003ea8", "surface-dim": "#cbdbf5", "on-surface": "#0b1c30", "secondary-fixed": "#dae2fd", "on-primary-container": "#eeefff", "inverse-on-surface": "#eaf1ff", "primary-fixed-dim": "#b4c5ff", "surface-tint": "#0053db", "tertiary-fixed-dim": "#4edea3", "outline-variant": "#c3c6d7", "primary-container": "#2563eb", "secondary-fixed-dim": "#bec6e0", "inverse-primary": "#b4c5ff", "on-error-container": "#93000a", "surface": "#f8f9ff", "on-tertiary-container": "#bdffdb", "on-error": "#ffffff", "background": "#f8f9ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "sidebar-width": "16.5rem", "space-md": "0.75rem", "space-2xs": "0.125rem", "gutter-table": "1rem", "sidebar-collapsed": "4.5rem", "space-xs": "0.25rem", "space-base": "1rem", "space-2xl": "2rem", "space-xl": "1.5rem", "space-sm": "0.5rem", "space-3xl": "3rem", "space-lg": "1.25rem" }, "fontFamily": { "display-lg": ["Outfit"], "headline-lg": ["Outfit"], "body-sm": ["Inter"], "metric-display": ["Outfit"], "body-md": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"], "headline-md": ["Outfit"], "label-md": ["Inter"], "headline-sm": ["Outfit"], "display-sm": ["Outfit"] }, "fontSize": { "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "metric-display": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-sm": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "display-sm": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-inverse-surface text-inverse-on-surface z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="h-16 flex items-center px-space-xl gap-space-md bg-inverse-surface"><img alt="RehabMedik Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V57r84H8dCObGCTZ0wraLnUXjos9IE7A_wxxzNGJz-q32_5YE4UKMJrwdjw5KF2SkTzIBm5qFXuX_PxL7ut8Z1-IidbfolQOZbRUHicva7EXn7pw4aRJZ7uA-RphXhllpaI-BYxnpobbcCzFqfEzHmVLkIo_gy8ji55s0d95CUirkIb6MYLFYGzB0l-Pp-Lxi6Xm1qhRiKhk2kmjIYmOhpoYyOI1fMdoIAMfx1jbsqygDAPKszTq8kff8"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm leading-tight text-surface-container-lowest tracking-tight">RehabMedik</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-outline-variant">RKZ Hospital Enterprise</span></div></div><div class="px-space-xl py-space-sm"><div class="h-px bg-on-surface-variant/20 w-full"></div></div><div class="px-space-md py-space-xs"><span class="px-space-md font-label-sm text-label-sm uppercase tracking-wider text-outline-variant">Clinical Workflow</span></div><nav class="flex flex-col gap-space-xs px-space-md" data-active-classes="bg-primary-container text-on-primary font-headline-sm shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]"><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg transition-all bg-primary-container text-on-primary font-headline-sm shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="antrean-pasien" href="#"><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-[20px]">groups</span><span class="font-body-md text-body-md">Antrean Pasien</span></div><span class="px-space-xs py-space-2xs bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm rounded-full">14</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="rekam-medis" href="#"><span class="material-symbols-outlined text-[20px]">folder_shared</span><span class="font-body-md text-body-md">Rekam Medis</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="anamnesis-dan-pemetaan" href="#"><span class="material-symbols-outlined text-[20px]">accessibility_new</span><span class="font-body-md text-body-md">Anamnesis &amp; Pemetaan</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="fisioterapi-dan-terapi-wicara" href="#"><span class="material-symbols-outlined text-[20px]">vital_signs</span><span class="font-body-md text-body-md">Fisioterapi &amp; Terapi</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="laporan-dan-statistik" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-body-md text-body-md">Laporan &amp; Statistik</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-inverse-on-surface hover:bg-on-surface-variant/20 hover:text-surface-container-lowest transition-all" data-path="pengaturan" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-body-md text-body-md">Pengaturan</span></a></nav></div><div class="p-space-md"><div class="bg-on-surface-variant/10 rounded-xl p-space-md flex flex-col gap-space-sm"><div class="flex items-center gap-space-md"><div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-headline-sm"><span class="material-symbols-outlined text-[20px]">stethoscope</span></div><div class="flex flex-col min-w-0 flex-1"><span class="font-body-md text-body-md font-semibold text-surface-container-lowest truncate">Dr. Bambang P., Sp.OT</span><span class="font-label-sm text-label-sm text-outline-variant truncate">Subsp. O.T.B. Rehab</span></div></div><div class="flex items-center justify-between pt-space-xs border-t border-on-surface-variant/20"><span class="font-label-sm text-label-sm text-tertiary-fixed flex items-center gap-space-xs"><span class="inline-block w-2 h-2 rounded-full bg-tertiary-fixed"></span> Shift On-Duty</span><button class="font-label-sm text-label-sm text-secondary-fixed hover:text-surface-container-lowest flex items-center gap-space-2xs" type="button"><span class="material-symbols-outlined text-[16px]">sync_alt</span> Ganti</button></div></div></div></aside><div class="pl-sidebar-width min-h-screen flex flex-col"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl z-40 px-space-xl flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-xl flex-1 max-w-2xl"><img alt="RehabMedik Logo" class="h-8 w-auto object-contain hidden" src="https://lh3.googleusercontent.com/aida/AEtjO1V57r84H8dCObGCTZ0wraLnUXjos9IE7A_wxxzNGJz-q32_5YE4UKMJrwdjw5KF2SkTzIBm5qFXuX_PxL7ut8Z1-IidbfolQOZbRUHicva7EXn7pw4aRJZ7uA-RphXhllpaI-BYxnpobbcCzFqfEzHmVLkIo_gy8ji55s0d95CUirkIb6MYLFYGzB0l-Pp-Lxi6Xm1qhRiKhk2kmjIYmOhpoYyOI1fMdoIAMfx1jbsqygDAPKszTq8kff8"><div class="relative w-full max-w-lg"><span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest transition-colors" placeholder="Cari No. RM, Nama Pasien, NIK..." type="search"></div><div class="hidden xl:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-tertiary"></span><span>Poli Sore - Aktif</span></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">calendar_today</span><span>Kamis, 24 Okt 2024</span></div><button class="relative p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-2.5 h-2.5 rounded-full bg-error ring-2 ring-surface-container-lowest"></span></button><button class="inline-flex items-center gap-space-xs h-10 px-space-lg bg-primary text-on-primary font-label-md text-label-md rounded-lg shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">person_add</span><span>+ Pasien Baru</span></button><div class="flex items-center gap-space-sm pl-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full px-space-xl pt-16 bg-background flex-1"><div class="flex flex-col w-full pb-space-3xl">
+<!-- Active Sidebar Nav State Mutator (Matches Shell Navigation Specification) -->
+<script>
+    (function syncNav() {
+      const links = document.querySelectorAll('aside nav a');
+      links.forEach(el => {
+        if (el.getAttribute('data-path') === 'rekam-medis' || el.textContent.includes('Rekam Medis')) {
+          el.className = 'flex items-center gap-space-md px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary font-headline-sm shadow-sm transition-all';
+        }
+      });
+    })();
+  </script>
+<!-- Section 1: Breadcrumb & Quick Clinical Telemetry Banner -->
+<div class="flex flex-col gap-space-sm mb-space-lg">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm uppercase tracking-wider">
+<span class="hover:text-primary transition-colors cursor-pointer">Instalasi Rehabilitasi Medik</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="hover:text-primary transition-colors cursor-pointer">Master Data</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-semibold">Direktori Pasien</span>
+</div>
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-md flex-wrap">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Master Data Pasien Rekam Medis</h1>
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-2xs rounded-full bg-surface-container-high text-primary font-label-md">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            Total Terdaftar: 3,842 Pasien
+          </span>
+<span class="inline-flex items-center gap-space-2xs px-space-sm py-space-2xs rounded-full bg-tertiary/10 text-tertiary font-label-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+            SatuSehat Terkoneksi
+          </span>
+</div>
+<p class="font-body-md text-on-surface-variant mt-space-2xs">
+          Basis data demografis, riwayat diagnosa rehabilitatif, serta penelusuran status berkas RMF-09 terpadu RKZ.
+        </p>
+</div>
+<!-- Action Toolbar -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="inline-flex items-center gap-space-xs h-10 px-space-md rounded-lg bg-surface-container-lowest text-secondary hover:text-on-surface shadow-sm font-label-md transition-colors" title="Ekspor Basis Data" type="button">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+<span>Ekspor Data</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+<button class="inline-flex items-center gap-space-xs h-10 px-space-lg rounded-lg bg-primary-container text-on-primary font-label-md shadow-sm hover:bg-primary transition-all" id="btn-toggle-reg" onclick="toggleRegistrationForm()" type="button">
+<span class="material-symbols-outlined text-[20px]" id="toggle-icon">person_add</span>
+<span id="toggle-text">+ Registrasi Pasien Baru</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section 2: Clinical Summary Micro-Widgets (Visual Richness / Glanceable Telemetry) -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md mb-space-xl">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm uppercase tracking-wider text-on-surface-variant">Pasien Aktif Bulan Ini</span>
+<span class="font-metric-display text-metric-display text-on-surface mt-space-2xs">624</span>
+<span class="font-label-sm text-tertiary flex items-center gap-space-2xs mt-space-2xs">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span> +14.2% vs bln lalu
+        </span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">group</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm uppercase tracking-wider text-on-surface-variant">Kasus Neuromuskular</span>
+<span class="font-metric-display text-metric-display text-on-surface mt-space-2xs">1,289</span>
+<span class="font-label-sm text-secondary flex items-center gap-space-2xs mt-space-2xs">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> 33.5% dari total kasus
+        </span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-tertiary-container">
+<span class="material-symbols-outlined text-[24px]">neurology</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm uppercase tracking-wider text-on-surface-variant">Kasus Muskuloskeletal</span>
+<span class="font-metric-display text-metric-display text-on-surface mt-space-2xs">1,847</span>
+<span class="font-label-sm text-secondary flex items-center gap-space-2xs mt-space-2xs">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> 48.1% dari total kasus
+        </span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[24px]">orthopedics</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm uppercase tracking-wider text-on-surface-variant">Berkas Siap Validasi RMF</span>
+<span class="font-metric-display text-metric-display text-on-surface mt-space-2xs">18</span>
+<span class="font-label-sm text-error flex items-center gap-space-2xs mt-space-2xs">
+<span class="material-symbols-outlined text-[14px]">priority_high</span> Menunggu tanda tangan Sp.KFR
+        </span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-error-container/40 flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-[24px]">assignment_late</span>
+</div>
+</div>
+</div>
+<!-- Section 3: Collapsible Inline Registration Form (Integrated Diagnostic Architecture) -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden mb-space-xl transition-all duration-300" id="form-registration-panel">
+<div class="bg-surface-container-low px-space-xl py-space-md flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Formulir Registrasi Pasien Baru (RMF-01)</span>
+<span class="font-label-sm text-on-surface-variant">Pastikan validitas NIK terintegrasi Dukcapil dan Kartu Identitas Berobat RKZ</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-space-2xs rounded-full bg-secondary-container text-on-secondary-fixed-variant font-label-sm">
+          Status: Entri Manual
+        </span>
+<button class="p-space-xs text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container-high transition-colors" onclick="toggleRegistrationForm()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+</div>
+<form class="p-space-xl flex flex-col gap-space-lg" id="new-patient-form" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-space-lg">
+<!-- No. Rekam Medis (Auto-Generated) -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface flex items-center justify-between">
+<span>Nomor Rekam Medis</span>
+<span class="text-tertiary text-label-sm font-semibold">Auto-Generated</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">pin</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low text-primary font-semibold text-body-md rounded-lg focus:outline-none cursor-not-allowed" readonly="" type="text" value="RM-014310">
+</div>
+<span class="font-body-sm text-on-surface-variant">Sesuai penomoran urut Instalasi Rekam Medis RKZ</span>
+</div>
+<!-- NIK 16 Digit -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface flex items-center justify-between">
+<span>Nomor Induk Kependudukan (NIK) *</span>
+<span class="text-primary text-label-sm cursor-pointer hover:underline" onclick="mockVerifyNIK()">Cek Dukcapil</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">credit_card</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-lowest text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" id="nik-input" maxlength="16" placeholder="3578012408890003" required="" type="text">
+</div>
+<span class="font-body-sm text-on-surface-variant" id="nik-hint">16 digit angka tertera pada KTP / KK</span>
+</div>
+<!-- Nama Lengkap Pasien -->
+<div class="flex flex-col gap-space-xs lg:col-span-2">
+<label class="font-label-md text-label-md text-on-surface">
+            Nama Lengkap Pasien &amp; Gelar *
+          </label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">person</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-lowest text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" placeholder="Contoh: Ny. Siti Rahmawati, S.Pd." required="" type="text">
+</div>
+<span class="font-body-sm text-on-surface-variant">Tuliskan titel/sapaan (Tn./Ny./Nn./An.) untuk etika rekam medis</span>
+</div>
+<!-- Tanggal Lahir + Auto Age -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface flex items-center justify-between">
+<span>Tanggal Lahir *</span>
+<span class="font-label-sm text-primary font-semibold bg-surface-container-high px-space-xs rounded" id="calculated-age-badge">54 Thn 7 Bln</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">calendar_month</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-lowest text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" id="dob-input" onchange="calculateAge(this.value)" required="" type="date" value="1970-03-15">
+</div>
+<span class="font-body-sm text-on-surface-variant">Kalkulasi usia geriatri/pediatrik otomatis</span>
+</div>
+<!-- Jenis Kelamin -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Jenis Kelamin *</label>
+<div class="grid grid-cols-2 gap-space-sm h-10">
+<label class="flex items-center justify-center gap-space-xs px-space-sm rounded-lg bg-surface-container-lowest shadow-sm cursor-pointer hover:bg-surface-container transition-colors">
+<input class="text-primary focus:ring-0" name="gender" type="radio" value="Laki-laki">
+<span class="font-body-md text-on-surface">Laki-laki</span>
+</label>
+<label class="flex items-center justify-center gap-space-xs px-space-sm rounded-lg bg-surface-container-high shadow-sm cursor-pointer">
+<input checked="" class="text-primary focus:ring-0" name="gender" type="radio" value="Perempuan">
+<span class="font-body-md text-primary font-semibold">Perempuan</span>
+</label>
+</div>
+<span class="font-body-sm text-on-surface-variant">Kategori klinis biologis</span>
+</div>
+<!-- Nomor Telepon / WA -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">No. Handphone / WhatsApp *</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">chat</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-lowest text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" placeholder="0812-3456-7890" required="" type="tel">
+</div>
+<span class="font-body-sm text-on-surface-variant">Terkoneksi auto-reminder reservasi fisioterapi</span>
+</div>
+<!-- Golongan Darah -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Golongan Darah &amp; Rhesus</label>
+<select class="w-full h-10 px-space-md bg-surface-container-lowest text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors">
+<option value="B+">B+ (B Rhesus Positif)</option>
+<option value="A+">A+ (A Rhesus Positif)</option>
+<option value="AB+">AB+ (AB Rhesus Positif)</option>
+<option value="O+">O+ (O Rhesus Positif)</option>
+<option value="A-">A- (A Rhesus Negatif)</option>
+<option value="B-">B- (B Rhesus Negatif)</option>
+<option value="AB-">AB- (AB Rhesus Negatif)</option>
+<option value="O-">O- (O Rhesus Negatif)</option>
+<option value="unknown">Tidak Diketahui</option>
+</select>
+<span class="font-body-sm text-on-surface-variant">Dokumentasi kegawatdaruratan klinis</span>
+</div>
+<!-- Alamat Lengkap Domisili -->
+<div class="flex flex-col gap-space-xs lg:col-span-2">
+<label class="font-label-md text-label-md text-on-surface">Alamat Domisili Lengkap &amp; Kelurahan *</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-3 text-on-surface-variant text-[18px]">home_pin</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-lowest text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" placeholder="Jl. Raya Darmo Permai III No. 42, Kel. Pradah Kalikendal, Kec. Dukuhpakis, Surabaya" required="" type="text">
+</div>
+<span class="font-body-sm text-on-surface-variant">Surabaya Barat / Rayon Faskes Rujukan 1</span>
+</div>
+<!-- Alergi & Riwayat Kontraindikasi Fisioterapi -->
+<div class="flex flex-col gap-space-xs lg:col-span-2">
+<label class="font-label-md text-label-md text-on-surface flex items-center justify-between">
+<span>Catatan Khusus Alergi &amp; Kontraindikasi Fisioterapi</span>
+<span class="text-error font-label-sm font-semibold flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[14px]">warning</span> Clinical Red Flag
+            </span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-error text-[18px]">medication_liquid</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-error-container/20 text-on-surface text-body-md rounded-lg shadow-sm focus:outline-none focus:bg-error-container/30 transition-colors" placeholder="Contoh: Alergi Gel USG, Terpasang Pacemaker Jantung (Kontraindikasi MWD/SWD)" type="text">
+</div>
+<span class="font-body-sm text-on-surface-variant">Wajib diisi jika terdapat implan logam atau pacu jantung</span>
+</div>
+</div>
+<!-- Form Action Buttons -->
+<div class="flex items-center justify-end gap-space-md pt-space-md bg-surface-container-lowest">
+<button class="inline-flex items-center gap-space-xs h-10 px-space-lg rounded-lg bg-surface-container-low text-on-surface-variant font-label-md hover:bg-surface-container hover:text-on-surface transition-colors" type="reset">
+<span class="material-symbols-outlined text-[18px]">restart_alt</span>
+<span>Reset Form</span>
+</button>
+<button class="inline-flex items-center gap-space-xs h-10 px-space-xl rounded-lg bg-primary-container text-on-primary font-label-md shadow-sm hover:bg-primary transition-colors" type="submit">
+<span class="material-symbols-outlined text-[18px]">save</span>
+<span>Simpan Pasien Baru</span>
+</button>
+</div>
+</form>
+</div>
+<!-- Section 4: Data Search, Multi-Filter Toolbar & Table -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<!-- Table Interactive Toolbar -->
+<div class="p-space-lg flex flex-col lg:flex-row lg:items-center justify-between gap-space-md bg-surface-container-lowest">
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md flex-1">
+<!-- Main Search Bar -->
+<div class="relative flex-1 max-w-md">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span>
+<input class="w-full h-10 pl-10 pr-space-md bg-surface-container-low rounded-lg text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container transition-colors" id="patient-search-query" oninput="filterPatientsTable()" placeholder="Cari No. RM, NIK, atau Nama Pasien..." type="text">
+</div>
+<!-- Filter: Gender -->
+<div class="flex items-center gap-space-xs">
+<select class="h-10 px-space-md bg-surface-container-low rounded-lg text-body-sm text-on-surface focus:outline-none" id="filter-gender" onchange="filterPatientsTable()">
+<option value="ALL">Semua Gender</option>
+<option value="L">Laki-laki (L)</option>
+<option value="P">Perempuan (P)</option>
+</select>
+</div>
+<!-- Filter: Age Bracket -->
+<div class="flex items-center gap-space-xs">
+<select class="h-10 px-space-md bg-surface-container-low rounded-lg text-body-sm text-on-surface focus:outline-none" id="filter-age" onchange="filterPatientsTable()">
+<option value="ALL">Semua Rentang Usia</option>
+<option value="PEDIATRIC">&lt; 18 Tahun (Pediatrik)</option>
+<option value="ADULT">18 - 59 Tahun (Dewasa)</option>
+<option value="GERIATRIC">≥ 60 Tahun (Geriatrik)</option>
+</select>
+</div>
+</div>
+<!-- Quick Export & Refresh -->
+<div class="flex items-center gap-space-sm justify-end">
+<span class="font-label-sm text-on-surface-variant hidden sm:inline-block">Status Sinkronisasi: Aktif</span>
+<button class="p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" onclick="refreshTableData()" title="Perbarui Data" type="button">
+<span class="material-symbols-outlined text-[20px]">refresh</span>
+</button>
+</div>
+</div>
+<!-- The Clinical Data Table -->
+<div class="w-full overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-high text-primary font-headline-sm text-[12px] uppercase tracking-wider">
+<th class="py-space-md px-space-lg whitespace-nowrap">No. Rekam Medis</th>
+<th class="py-space-md px-space-lg whitespace-nowrap">Data Pasien &amp; NIK</th>
+<th class="py-space-md px-space-lg whitespace-nowrap">Tanggal Lahir &amp; Usia</th>
+<th class="py-space-md px-space-lg whitespace-nowrap">Kontak Terdaftar</th>
+<th class="py-space-md px-space-lg whitespace-nowrap">Diagnosa Terakhir (ICD-10)</th>
+<th class="py-space-md px-space-lg whitespace-nowrap">Kunjungan Terakhir</th>
+<th class="py-space-md px-space-lg text-right whitespace-nowrap">Aksi Klinis</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-on-surface divide-none" id="patients-table-body">
+<!-- Row 1 -->
+<tr class="even:bg-surface-container-low/40 hover:bg-surface-container-high/40 transition-colors group cursor-pointer" data-age="54" data-gender="P">
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-md bg-surface-container font-semibold text-primary">
+<span>141306</span>
+<button class="opacity-40 group-hover:opacity-100 hover:text-on-surface transition-opacity" onclick="copyRM(event, '141306')" title="Salin No. RM" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+</button>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center font-semibold text-label-md">
+                  SR
+                </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface truncate">Ny. Siti Rahmawati</span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-variant text-primary font-label-sm leading-none">P</span>
+</div>
+<span class="font-label-sm text-on-surface-variant">NIK: 3578012408890003</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-md">03 Feb 1970</span>
+<span class="font-label-sm text-on-surface-variant">54 Thn 8 Bln</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">chat</span>
+<span class="font-body-sm">0812-9843-2210</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex flex-col max-w-xs">
+<span class="font-semibold text-on-surface truncate">Coccydynia &amp; Spasme Pelvik</span>
+<span class="font-label-sm text-on-surface-variant">M53.3 • Fisioterapi SWD + Kegel</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-on-surface">22 Okt 2024</span>
+<span class="font-label-sm text-tertiary">2 hari yang lalu</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg text-right whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-space-2xs h-8 px-space-sm rounded-lg bg-primary-container text-on-primary font-label-sm shadow-sm hover:bg-primary transition-colors" onclick="registerToQueue('141306', 'Ny. Siti Rahmawati')" title="Masukkan antrean hari ini" type="button">
+<span class="material-symbols-outlined text-[14px]">queue_play_next</span>
+<span>Daftarkan</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="openPatientDetail('141306')" title="Lihat Rekam Medis Fungsional RMF-09" type="button">
+<span class="material-symbols-outlined text-[18px]">folder_open</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" title="Edit Profil" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="even:bg-surface-container-low/40 hover:bg-surface-container-high/40 transition-colors group cursor-pointer" data-age="62" data-gender="L">
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-md bg-surface-container font-semibold text-primary">
+<span>141882</span>
+<button class="opacity-40 group-hover:opacity-100 hover:text-on-surface transition-opacity" onclick="copyRM(event, '141882')" title="Salin No. RM" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+</button>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-semibold text-label-md">
+                  HW
+                </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface truncate">Tn. Hendra Wijaya</span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-variant text-primary font-label-sm leading-none">L</span>
+</div>
+<span class="font-label-sm text-on-surface-variant">NIK: 3578041901620001</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-md">19 Jan 1962</span>
+<span class="font-label-sm text-on-surface-variant">62 Thn 9 Bln (Geriatrik)</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">chat</span>
+<span class="font-body-sm">0821-4478-0019</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex flex-col max-w-xs">
+<span class="font-semibold text-on-surface truncate">Post-Stroke Hemiparesis Sinistra</span>
+<span class="font-label-sm text-on-surface-variant">I69.3 • Gait Training + Bobath</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-on-surface">24 Okt 2024</span>
+<span class="font-label-sm text-primary font-semibold">Hari Ini (Poli Pagi)</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg text-right whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-space-2xs h-8 px-space-sm rounded-lg bg-tertiary/10 text-tertiary font-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                  Dalam Terapi
+                </span>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="openPatientDetail('141882')" title="Lihat RMF-09" type="button">
+<span class="material-symbols-outlined text-[18px]">folder_open</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" title="Edit Profil" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="even:bg-surface-container-low/40 hover:bg-surface-container-high/40 transition-colors group cursor-pointer" data-age="49" data-gender="P">
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-md bg-surface-container font-semibold text-primary">
+<span>140920</span>
+<button class="opacity-40 group-hover:opacity-100 hover:text-on-surface transition-opacity" onclick="copyRM(event, '140920')" title="Salin No. RM" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+</button>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center font-semibold text-label-md">
+                  MA
+                </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface truncate">Ibu Maria Angelina</span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-variant text-primary font-label-sm leading-none">P</span>
+</div>
+<span class="font-label-sm text-on-surface-variant">NIK: 3578056209750002</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-md">22 Sep 1975</span>
+<span class="font-label-sm text-on-surface-variant">49 Thn 1 Bln</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">chat</span>
+<span class="font-body-sm">0813-3390-1124</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex flex-col max-w-xs">
+<span class="font-semibold text-on-surface truncate">Frozen Shoulder Dextra (Adhesive Capsulitis)</span>
+<span class="font-label-sm text-on-surface-variant">M75.0 • Mobilisasi Sendi Glanohumeral</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-on-surface">19 Okt 2024</span>
+<span class="font-label-sm text-on-surface-variant">5 hari yang lalu</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg text-right whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-space-2xs h-8 px-space-sm rounded-lg bg-primary-container text-on-primary font-label-sm shadow-sm hover:bg-primary transition-colors" onclick="registerToQueue('140920', 'Ibu Maria Angelina')" type="button">
+<span class="material-symbols-outlined text-[14px]">queue_play_next</span>
+<span>Daftarkan</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="openPatientDetail('140920')" title="Lihat RMF-09" type="button">
+<span class="material-symbols-outlined text-[18px]">folder_open</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" title="Edit Profil" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="even:bg-surface-container-low/40 hover:bg-surface-container-high/40 transition-colors group cursor-pointer" data-age="44" data-gender="L">
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-md bg-surface-container font-semibold text-primary">
+<span>139811</span>
+<button class="opacity-40 group-hover:opacity-100 hover:text-on-surface transition-opacity" onclick="copyRM(event, '139811')" title="Salin No. RM" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+</button>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-semibold text-label-md">
+                  AH
+                </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface truncate">Tn. Ahmad Hidayat</span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-variant text-primary font-label-sm leading-none">L</span>
+</div>
+<span class="font-label-sm text-on-surface-variant">NIK: 3578021110800007</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-md">11 Okt 1980</span>
+<span class="font-label-sm text-on-surface-variant">44 Thn 0 Bln</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">chat</span>
+<span class="font-body-sm">0857-1902-8833</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex flex-col max-w-xs">
+<span class="font-semibold text-on-surface truncate">HNP Lumbal L4-L5 Radikulopati</span>
+<span class="font-label-sm text-on-surface-variant">M51.1 • Traksi Lumbalis + TENS</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-on-surface">17 Okt 2024</span>
+<span class="font-label-sm text-on-surface-variant">7 hari yang lalu</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg text-right whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-space-2xs h-8 px-space-sm rounded-lg bg-primary-container text-on-primary font-label-sm shadow-sm hover:bg-primary transition-colors" onclick="registerToQueue('139811', 'Tn. Ahmad Hidayat')" type="button">
+<span class="material-symbols-outlined text-[14px]">queue_play_next</span>
+<span>Daftarkan</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="openPatientDetail('139811')" title="Lihat RMF-09" type="button">
+<span class="material-symbols-outlined text-[18px]">folder_open</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" title="Edit Profil" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="even:bg-surface-container-low/40 hover:bg-surface-container-high/40 transition-colors group cursor-pointer" data-age="68" data-gender="P">
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-2xs rounded-md bg-surface-container font-semibold text-primary">
+<span>142005</span>
+<button class="opacity-40 group-hover:opacity-100 hover:text-on-surface transition-opacity" onclick="copyRM(event, '142005')" title="Salin No. RM" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+</button>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center font-semibold text-label-md">
+                  LK
+                </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface truncate">Ny. Lie Kiem Hwa</span>
+<span class="px-space-xs py-space-2xs rounded-full bg-surface-variant text-primary font-label-sm leading-none">P</span>
+</div>
+<span class="font-label-sm text-on-surface-variant">NIK: 3578034506560005</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-md">05 Jun 1956</span>
+<span class="font-label-sm text-on-surface-variant">68 Thn 4 Bln (Geriatrik)</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">chat</span>
+<span class="font-body-sm">0811-3009-411</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg align-middle">
+<div class="flex flex-col max-w-xs">
+<span class="font-semibold text-on-surface truncate">Osteoarthritis Genu Bilateral Grade III</span>
+<span class="font-label-sm text-on-surface-variant">M17.0 • Strengthening Quadriceps</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg whitespace-nowrap align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-on-surface">15 Okt 2024</span>
+<span class="font-label-sm text-on-surface-variant">9 hari yang lalu</span>
+</div>
+</td>
+<td class="py-space-md px-space-lg text-right whitespace-nowrap align-middle">
+<div class="inline-flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-space-2xs h-8 px-space-sm rounded-lg bg-primary-container text-on-primary font-label-sm shadow-sm hover:bg-primary transition-colors" onclick="registerToQueue('142005', 'Ny. Lie Kiem Hwa')" type="button">
+<span class="material-symbols-outlined text-[14px]">queue_play_next</span>
+<span>Daftarkan</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" onclick="openPatientDetail('142005')" title="Lihat RMF-09" type="button">
+<span class="material-symbols-outlined text-[18px]">folder_open</span>
+</button>
+<button class="p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" title="Edit Profil" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Section 5: Table Pagination & Record Range Metadata -->
+<div class="px-space-lg py-space-md bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<span class="font-body-sm text-on-surface-variant">
+          Menampilkan <strong class="text-on-surface font-semibold">1 - 5</strong> dari <strong class="text-on-surface font-semibold">3,842</strong> data pasien
+        </span>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-on-surface-variant">Baris per halaman:</span>
+<select class="h-8 px-space-sm bg-surface-container-lowest text-on-surface font-label-sm rounded focus:outline-none shadow-sm">
+<option selected="" value="5">5</option>
+<option value="10">10</option>
+<option value="25">25</option>
+<option value="50">50</option>
+</select>
+</div>
+</div>
+<!-- Pagination Navigation Buttons -->
+<div class="flex items-center gap-space-xs">
+<button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-lowest text-on-surface-variant hover:text-on-surface shadow-sm disabled:opacity-40" disabled="" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded flex items-center justify-center bg-primary-container text-on-primary font-label-md font-semibold shadow-sm" type="button">
+          1
+        </button>
+<button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container font-label-md transition-colors shadow-sm" type="button">
+          2
+        </button>
+<button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container font-label-md transition-colors shadow-sm" type="button">
+          3
+        </button>
+<span class="px-space-xs text-on-surface-variant font-label-sm">...</span>
+<button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container font-label-md transition-colors shadow-sm" type="button">
+          385
+        </button>
+<button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-lowest text-on-surface-variant hover:text-on-surface shadow-sm hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Toast Notification Overlay Container (Micro-Interactions) -->
+<div class="fixed bottom-6 right-6 z-50 flex flex-col gap-space-xs pointer-events-none" id="toast-container"></div>
+<!-- Interactive Scripts -->
+<script>
+    function toggleRegistrationForm() {
+      const form = document.getElementById('form-registration-panel');
+      const toggleIcon = document.getElementById('toggle-icon');
+      const toggleText = document.getElementById('toggle-text');
+
+      if (form.classList.contains('hidden')) {
+        form.classList.remove('hidden');
+        toggleIcon.textContent = 'close';
+        toggleText.textContent = 'Tutup Formulir';
+      } else {
+        form.classList.add('hidden');
+        toggleIcon.textContent = 'person_add';
+        toggleText.textContent = '+ Registrasi Pasien Baru';
+      }
+    }
+
+    function calculateAge(dobString) {
+      if (!dobString) return;
+      const dob = new Date(dobString);
+      const diffMs = Date.now() - dob.getTime();
+      const ageDate = new Date(diffMs);
+      const years = Math.abs(ageDate.getUTCFullYear() - 1970);
+      const months = ageDate.getUTCMonth();
+      
+      const badge = document.getElementById('calculated-age-badge');
+      badge.textContent = `${years} Thn ${months} Bln`;
+    }
+
+    function copyRM(event, rmNumber) {
+      event.stopPropagation();
+      navigator.clipboard.writeText(rmNumber).then(() => {
+        showToast(`No. RM ${rmNumber} berhasil disalin ke papan klip.`);
+      });
+    }
+
+    function registerToQueue(rmNumber, patientName) {
+      showToast(`Mendaftarkan ${patientName} (${rmNumber}) ke antrean poli fisioterapi...`);
+    }
+
+    function openPatientDetail(rmNumber) {
+      showToast(`Membuka berkas RMF-09 No. RM: ${rmNumber}`);
+    }
+
+    function mockVerifyNIK() {
+      const input = document.getElementById('nik-input');
+      const hint = document.getElementById('nik-hint');
+      if (input.value.length === 16) {
+        hint.innerHTML = `<span class="text-tertiary font-semibold flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px]">check_circle</span> NIK Terverifikasi Dukcapil Kota Surabaya</span>`;
+      } else {
+        hint.innerHTML = `<span class="text-error font-semibold flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px]">cancel</span> Harap masukkan 16 digit NIK lengkap</span>`;
+      }
+    }
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      showToast('Data pasien baru berhasil tersimpan ke Master Data RKZ.');
+      setTimeout(() => {
+        toggleRegistrationForm();
+      }, 800);
+    }
+
+    function filterPatientsTable() {
+      const query = document.getElementById('patient-search-query').value.toLowerCase();
+      const gender = document.getElementById('filter-gender').value;
+      const ageBracket = document.getElementById('filter-age').value;
+      
+      const rows = document.querySelectorAll('#patients-table-body tr');
+
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        const rowGender = row.getAttribute('data-gender');
+        const rowAge = parseInt(row.getAttribute('data-age'), 10);
+
+        let matchQuery = text.includes(query);
+        let matchGender = (gender === 'ALL') || (rowGender === gender);
+        let matchAge = true;
+
+        if (ageBracket === 'PEDIATRIC') matchAge = rowAge < 18;
+        if (ageBracket === 'ADULT') matchAge = rowAge >= 18 && rowAge < 60;
+        if (ageBracket === 'GERIATRIC') matchAge = rowAge >= 60;
+
+        if (matchQuery && matchGender && matchAge) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    function refreshTableData() {
+      showToast('Memperbarui indeks master direktori pasien...');
+    }
+
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'pointer-events-auto flex items-center gap-space-sm px-space-md py-space-sm rounded-lg bg-inverse-surface text-inverse-on-surface shadow-xl font-label-md animate-bounce';
+      toast.innerHTML = `
+        <span class="material-symbols-outlined text-[18px] text-tertiary-fixed">info</span>
+        <span>${message}</span>
+      `;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => toast.remove(), 300);
+      }, 3200);
+    }
+  </script>
+</div></main></div></body></html>
